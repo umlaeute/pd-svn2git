@@ -23,3 +23,19 @@ since `svn log` does not provide this info, we need to do it ourselves.
 
 3. manually filter out uninteresting paths, e.g. when a "help"-subdirectory
    was added to a given external
+
+
+## step-by-step
+
+1. getting the log: `./getlog.sh`
+
+	$ ./getlog.sh file://$(readlink -f $(pwd)/../01.backup/svn) >/dev/null`
+
+2. fixing the svn (there is a mix of UTF-8 and ISO-8859 characters)
+
+	$ ./repair-utf8 svnlog.xml > svnlog.xml.utf8
+	$ mv svnlog.xml.utf8 svnlog.xml
+
+3. massage the log for interesting entries
+
+	$ xsltproc filter-dirchanges.xsl svnlog.xml
