@@ -14,7 +14,9 @@ information to print:
 <xsl:stylesheet version="1.0"
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:output method="xml"/>
+  <xsl:output method="xml" indent="yes"/>
+  <xsl:strip-space elements="*"/>
+  <xsl:preserve-space elements="msg"/>
 
   <xsl:template match="logentry[paths/path/@kind='dir']">
     <xsl:element name="logentry"><xsl:apply-templates/></xsl:element>
