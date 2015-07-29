@@ -19,7 +19,7 @@ information to print:
   <xsl:preserve-space elements="msg"/>
 
   <xsl:template match="logentry[paths/path/@kind='dir']">
-    <xsl:element name="logentry"><xsl:apply-templates/></xsl:element>
+    <xsl:element name="logentry"><xsl:attribute name="revision"><xsl:value-of select='@revision'/></xsl:attribute><xsl:apply-templates/></xsl:element>
   </xsl:template>
 
   <xsl:template match="path[@kind='dir']">
