@@ -13,6 +13,17 @@ to know which things went where.
 the current plan is, to extract all directory changes from the logfiles,
 and do some manual(!) inspection of this info.
 
+## authors
+extracting authors from SVN-log and creating an AUTHORS file suitable
+for the migration, with a format similar to
+
+	uid: John Doe <uid@users.sourceforge.net>
+
+(let's use the sourceforge address, as it doesn't disclose any more information
+than is already available).
+
+	$ ./getauthors.sh > AUTHORS.txt
+
 
 ## which directories have changed?
 since `svn log` does not provide this info, we need to do it ourselves.
@@ -25,7 +36,7 @@ since `svn log` does not provide this info, we need to do it ourselves.
    was added to a given external
 
 
-## step-by-step
+### step-by-step
 
 1. getting the log: `./getlog.sh`
 
@@ -38,4 +49,9 @@ since `svn log` does not provide this info, we need to do it ourselves.
 
 3. massage the log for interesting entries
 
-	$ xsltproc filter-dirchanges.xsl svnlog.xml
+	$ xsltproc extract_paths.xsl svnlog.xml | sort -u > paths.txt
+
+
+3. massage the log for interesting entries
+
+	$ xsltproc filter-dirchanges.xsl svnlog.xml > paths.xml
