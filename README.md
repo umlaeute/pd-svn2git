@@ -25,6 +25,8 @@ It also serves as a (public) documentation of the process.
 
 ### layout
 
-- `scripts/`: collection of scripts for the migration
-- `series`: documentation which steps to take
+this project contains a number of number-prefixed directories,
+one for each major task.
+each directory should be "executed" in the order indicated.
 
+there ought to be a README for each dir.
