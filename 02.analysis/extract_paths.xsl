@@ -7,10 +7,7 @@
   
   <xsl:template match="/">
     <xsl:for-each select="/log/logentry/paths/path[@kind='dir']">
-      <xsl:element name="path">
-	<xsl:apply-templates/>.
-      </xsl:element>
-    </xsl:for-each>
+      <xsl:apply-templates/><xsl:text>&#xa;</xsl:text></xsl:for-each>
   </xsl:template>
 
   <!-- ignore all the rest -->
