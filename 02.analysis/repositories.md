@@ -1,0 +1,33 @@
+# gui-plugins
+
+- 64bit-warning-plugin
+	- /trunk/scripts/guiplugins/64bit-warning-plugin
+- bidi-plugin
+	-/trunk/guiplugins/bidi-plugin
+- buttonbar-plugin
+  - /trunk/scripts/guiplugins/buttonbar
+  - /trunk/scripts/guiplugins/buttonbar-plugin
+- buttonpopup-plugin
+  - /trunk/scripts/guiplugins/buttonpopup-plugin
+- category_menu-plugin
+  - /trunk/scripts/guiplugins/category_menu-plugin
+- dropsuite-plugin
+  - /trunk/scripts/guiplugins/dropsuite-plugin
+- file_associations
+  - /trunk/scripts/guiplugins/file_associations
+- kiosk-plugin
+	- /trunk/guiplugins/kiosk-plugin
+	- /trunk/scripts/guiplugins/kiosk-plugin
+- new-from-template-plugin
+  - /trunk/scripts/guiplugins/new-from-template-plugin
+- object_db-plugin
+  - /trunk/scripts/guiplugins/object_db
+  - /trunk/scripts/guiplugins/object_db-plugin
+- quickbindings
+  - /trunk/scripts/guiplugins/quickbindings
+- search-plugin
+  - /trunk/scripts/guiplugins/search-plugin
+- simple_examples
+  - /trunk/scripts/guiplugins/simple_examples
+- trainingwheels-plugin
+  - /trunk/scripts/guiplugins/trainingwheels-plugin
