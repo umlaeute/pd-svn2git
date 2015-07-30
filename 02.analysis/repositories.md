@@ -1,3 +1,182 @@
+# misc
+- template
+  - /trunk/externals/template
+
+# externals/abstractions/libraries
+- adaptive
+  - /trunk/externals/grh/adaptive
+- arraysize
+  - /trunk/externals/arraysize
+- bassemu~
+  - /trunk/externals/bassemu~
+  - /trunk/externals/bassemu
+- boids
+  - /trunk/externals/boids
+  - FIXXME: history in jasch_lib?
+- bsaylor
+  - /trunk/externals/bsaylor
+- chaos
+  - /trunk/externals/bbogart/chaos
+  - /trunk/externals/chaos
+  - FIXXME: tb/chaos ???
+- comport
+  - /trunk/externals/iem/comport
+  - FIXXME: iem/comport/bird
+- creb
+  - /trunk/externals/creb
+- cxc
+  - /trunk/externals/cxc
+- cyclone
+  - /trunk/externals/miXed
+- earplug~
+  - /trunk/externals/earplug~
+- ekext
+  - /trunk/externals/ekext
+- ext13
+  - /trunk/externals/ext13
+- flatgui
+  - /trunk/externals/flatgui
+- freeverb~
+  - /trunk/externals/freeverb~
+- gem2pdp
+  - /trunk/externals/gem2pdp
+- ggee
+  - /trunk/externals/ggee
+- hcs
+  - /trunk/externals/hcs
+- hexloader
+  - /trunk/externals/loaders/hexloader
+- hid
+  - /trunk/externals/hid
+  - /trunk/externals/hcs/hid
+- iem16
+  - /trunk/externals/iem16
+- iem_adaptfilt
+  - /trunk/externals/iem/iem_adaptfilt
+- iem_ambi
+  - /trunk/externals/iem/iem_ambi
+- iem_bin_ambi
+  - /trunk/externals/iem/iem_bin_ambi
+- iem_delay
+  - /trunk/externals/iem/iem_delay
+- iemgui
+  - /trunk/externals/iem/iemgui
+- iemguts
+  - /trunk/externals/iem/iemguts
+- iemlib
+  - /trunk/externals/iemlib
+- iemmatrix
+  - /trunk/externals/iem/iemmatrix
+  - FIXXME: /trunk/externals/iem/iem_matrix
+- iemnet
+  - /trunk/externals/iem/iemnet
+- iem_roomsim
+  - /trunk/externals/iem/iem_roomsim
+- iem_spec2
+  - /trunk/externals/iem/iem_spec2
+- iem_tab
+  - /trunk/externals/iem/iem_tab
+- iemxmlrpc
+  - /trunk/externals/iem/iemxmlrpc
+- jasch_lib
+  - /trunk/externals/jasch_lib
+- jmmmp
+  - /trunk/abstractions/jmmmp
+- la-kitchen
+  - /trunk/abstractions/La-kitchen
+- libdir
+  - /trunk/externals/loaders/libdir
+- list-abs
+  - /tunk/abstractions/footils/list-abs
+- log
+  - /trunk/externals/log
+- mapping
+  - /trunk/externals/mapping
+- markex
+  - /trunk/externals/markex
+- maxlib
+  - /trunk/externals/maxlib
+- mediasettings
+  - /trunk/externals/iem/mediasettings
+- mjlib
+  - /trunk/externals/mjlib
+- moocow
+  - /trunk/externals/moocow
+- moonlib
+  - /trunk/externals/moonlib
+- motex
+  - /trunk/externals/motex
+- mrpeach
+  - /trunk/externals/mrpeach
+- net
+  - /trunk/externals/mrpeach/net
+- nsend
+  - /trunk/abstractions/sfruit/nsend
+- osc
+  - /trunk/externals/mrpeach/osc
+- oscx
+  - /trunk/externals/oscx
+  - /trunk/externals/OSCx
+- output~
+
+- pan
+  - /trunk/externals/pan
+  - /trunk/externals/hcs/pan
+- parazit
+  - /trunk/abstractions/parazit
+- pdcontainer
+  - /trunk/externals/grh/PDContainer
+- pddp
+  - /trunk/externals/pddp
+  - /trunk/abstractions/pddp ??
+- pdlua
+  - /trunk/externals/loaders/pdlua
+  - /trunk/externals/pdlua
+- pdogg
+  - /trunk/externals/pdogg
+- pdp
+  - ?? this is hosted on github
+- pduino
+  - /trunk/externals/pduino
+  - /trunk/externals/arduino ??
+  - /trunk/externals/hardware/arduino ???
+- pd-wavelet
+  - /trunk/abstractions/pd-wavelet
+- plugin~
+  - /trunk/externals/plugin~
+- pmpd
+  - /trunk/externals/pmpd
+- purepd
+  - /trunk/abstractions/purepd
+  - /trunk/externals/hcs/purepd
+- rtc
+  - /trunk/abstractions/footils/rtc-lib
+- sfruit
+  - /trunk/externals/sfruit/sfruit
+- sigpack
+  - /trunk/externals/sigpack
+- smlib
+  - /trunk/externals/smlib
+- syslog
+  - /trunk/externals/iem/syslog
+- tclpd
+  - /trunk/externals/loaders/tclpd
+  - /trunk/externals/tclpd
+- testtools
+  - /trunk/externals/testtools
+- timestretch
+  - /trunk/abstractions/timestretch
+- tof
+  - /trunk/externals/tof
+- unauthorized
+  - /trunk/externals/unauthorized
+- vbap
+  - /trunk/externals/vbap
+- windowing
+  - /trunk/externals/windowing
+- zexy
+  - /trunk/externals/zexy
+
 # gui-plugins
 
 - 64bit-warning-plugin
