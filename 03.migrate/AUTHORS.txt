@@ -1,70 +1,70 @@
-adamlindsay: Adam Lindsay <adamlindsay@users.sourceforge.net>
-alexandrequessy: Alexandre Quessy <alexandrequessy@users.sourceforge.net>
-aschix: daniel aschauer <aschix@users.sourceforge.net>
-audionerd: N.N. <audionerd@users.sourceforge.net>
-augmentus: august black <augmentus@users.sourceforge.net>
-avilleret: Antoine Villeret <avilleret@users.sourceforge.net>
-bbogart: B. Bogart <bbogart@users.sourceforge.net>
-caedesv: Pablo Martín <caedesv@users.sourceforge.net>
-chr15m: N.N. <chr15m@users.sourceforge.net>
-chunlee: chunlee <chunlee@users.sourceforge.net>
-d13: dieter kovacic <d13@users.sourceforge.net>
-dave_sabine: N.N. <dave_sabine@users.sourceforge.net>
-david_merrill: N.N. <david_merrill@users.sourceforge.net>
-dh7: Damien HENRY <dh7@users.sourceforge.net>
-dheck: Daniel Heckenberg <dheck@users.sourceforge.net>
-dmotd: dmotd <dmotd@users.sourceforge.net>
-doelie: Tom Schouten <doelie@users.sourceforge.net>
-edkelly: Ed Kelly <edkelly@users.sourceforge.net>
-eighthave: Hans-Christoph Steiner <eighthave@users.sourceforge.net>
-electrickery: N.N. <electrickery@users.sourceforge.net>
-fbar: Frank Barknecht <fbar@users.sourceforge.net>
-federico__: N.N. <federico__@users.sourceforge.net>
-fzotter: Franz Zotter <fzotter@users.sourceforge.net>
-ggeiger: Guenter  Geiger <ggeiger@users.sourceforge.net>
-grholzi: Georg Holzmann <grholzi@users.sourceforge.net>
-g_roma: N.N. <g_roma@users.sourceforge.net>
-ix9: carmen rocco <ix9@users.sourceforge.net>
-j45ch: jasch <j45ch@users.sourceforge.net>
-jancsika1: Jonathan Wilkes <jancsika1@users.sourceforge.net>
-jmmmp: João Pais <jmmmp@users.sourceforge.net>
-jusu: Juha Vehviläinen <jusu@users.sourceforge.net>
-katjav: Katja  <katjav@users.sourceforge.net>
-kpeiruza: Kenneth Peiruza <kpeiruza@users.sourceforge.net>
-krzyszcz: N.N. <krzyszcz@users.sourceforge.net>
-ksvalast: Kjetil S. Matheussen <ksvalast@users.sourceforge.net>
-lluisbigorda: lluís gómez i bigordà <lluisbigorda@users.sourceforge.net>
-lukeiannini: Luke Iannini <lukeiannini@users.sourceforge.net>
-martin_pi: N.N. <martin_pi@users.sourceforge.net>
-matju: N.N. <matju@users.sourceforge.net>
-mescalinum: mescalinum <mescalinum@users.sourceforge.net>
-millerpuckette: Miller Puckette <millerpuckette@users.sourceforge.net>
-mnoi: N.N. <mnoi@users.sourceforge.net>
-morellid: Davide Morelli <morellid@users.sourceforge.net>
-mrpeach: Martin Peach <mrpeach@users.sourceforge.net>
-mrtof: Thomas O Fredericks <mrtof@users.sourceforge.net>
-mukau: Bryan Jurish <mukau@users.sourceforge.net>
-nimon: N.N. <nimon@users.sourceforge.net>
-nusmuk: Cyrille Henry <nusmuk@users.sourceforge.net>
-olafmatt: Olaf Matthes <olafmatt@users.sourceforge.net>
-pland: David Plans Casal <pland@users.sourceforge.net>
-postlude: Jamie Bullock <postlude@users.sourceforge.net>
-rdz: Roman Haefeli <rdz@users.sourceforge.net>
-reakin: Rich E <reakin@users.sourceforge.net>
-ricardofabbri: N.N. <ricardofabbri@users.sourceforge.net>
-ritsch: Winfried Ritsch <ritsch@users.sourceforge.net>
-root: N.N. <root@users.sourceforge.net>
-rudk: David Doukhan <rudk@users.sourceforge.net>
-russellbryant: Russell Bryant <russellbryant@users.sourceforge.net>
-sergi_ll: N.N. <sergi_ll@users.sourceforge.net>
-sevyves: N.N. <sevyves@users.sourceforge.net>
-tigital: Jamie Tittle <tigital@users.sourceforge.net>
-timblech: Tim Blechmann <timblech@users.sourceforge.net>
-tmusil: musil <tmusil@users.sourceforge.net>
-uid151795: N.N. <uid151795@users.sourceforge.net>
-uid73178: N.N. <uid73178@users.sourceforge.net>
-vdongen: Gerard van Dongen <vdongen@users.sourceforge.net>
-x75: jdl <x75@users.sourceforge.net>
-xovo: Thomas Grill <xovo@users.sourceforge.net>
-zacksettel: zacksettel <zacksettel@users.sourceforge.net>
-zmoelnig: IOhannes m zmölnig <zmoelnig@users.sourceforge.net>
+adamlindsay Adam Lindsay <adamlindsay@users.sourceforge.net>
+alexandrequessy Alexandre Quessy <alexandrequessy@users.sourceforge.net>
+aschix daniel aschauer <aschix@users.sourceforge.net>
+audionerd N.N. <audionerd@users.sourceforge.net>
+augmentus august black <augmentus@users.sourceforge.net>
+avilleret Antoine Villeret <avilleret@users.sourceforge.net>
+bbogart B. Bogart <bbogart@users.sourceforge.net>
+caedesv Pablo Martín <caedesv@users.sourceforge.net>
+chr15m N.N. <chr15m@users.sourceforge.net>
+chunlee chunlee <chunlee@users.sourceforge.net>
+d13 dieter kovacic <d13@users.sourceforge.net>
+dave_sabine N.N. <dave_sabine@users.sourceforge.net>
+david_merrill N.N. <david_merrill@users.sourceforge.net>
+dh7 Damien HENRY <dh7@users.sourceforge.net>
+dheck Daniel Heckenberg <dheck@users.sourceforge.net>
+dmotd dmotd <dmotd@users.sourceforge.net>
+doelie Tom Schouten <doelie@users.sourceforge.net>
+edkelly Ed Kelly <edkelly@users.sourceforge.net>
+eighthave Hans-Christoph Steiner <eighthave@users.sourceforge.net>
+electrickery N.N. <electrickery@users.sourceforge.net>
+fbar Frank Barknecht <fbar@users.sourceforge.net>
+federico__ N.N. <federico__@users.sourceforge.net>
+fzotter Franz Zotter <fzotter@users.sourceforge.net>
+ggeiger Guenter  Geiger <ggeiger@users.sourceforge.net>
+grholzi Georg Holzmann <grholzi@users.sourceforge.net>
+g_roma N.N. <g_roma@users.sourceforge.net>
+ix9 carmen rocco <ix9@users.sourceforge.net>
+j45ch jasch <j45ch@users.sourceforge.net>
+jancsika1 Jonathan Wilkes <jancsika1@users.sourceforge.net>
+jmmmp João Pais <jmmmp@users.sourceforge.net>
+jusu Juha Vehviläinen <jusu@users.sourceforge.net>
+katjav Katja  <katjav@users.sourceforge.net>
+kpeiruza Kenneth Peiruza <kpeiruza@users.sourceforge.net>
+krzyszcz N.N. <krzyszcz@users.sourceforge.net>
+ksvalast Kjetil S. Matheussen <ksvalast@users.sourceforge.net>
+lluisbigorda lluís gómez i bigordà <lluisbigorda@users.sourceforge.net>
+lukeiannini Luke Iannini <lukeiannini@users.sourceforge.net>
+martin_pi N.N. <martin_pi@users.sourceforge.net>
+matju N.N. <matju@users.sourceforge.net>
+mescalinum mescalinum <mescalinum@users.sourceforge.net>
+millerpuckette Miller Puckette <millerpuckette@users.sourceforge.net>
+mnoi N.N. <mnoi@users.sourceforge.net>
+morellid Davide Morelli <morellid@users.sourceforge.net>
+mrpeach Martin Peach <mrpeach@users.sourceforge.net>
+mrtof Thomas O Fredericks <mrtof@users.sourceforge.net>
+mukau Bryan Jurish <mukau@users.sourceforge.net>
+nimon N.N. <nimon@users.sourceforge.net>
+nusmuk Cyrille Henry <nusmuk@users.sourceforge.net>
+olafmatt Olaf Matthes <olafmatt@users.sourceforge.net>
+pland David Plans Casal <pland@users.sourceforge.net>
+postlude Jamie Bullock <postlude@users.sourceforge.net>
+rdz Roman Haefeli <rdz@users.sourceforge.net>
+reakin Rich E <reakin@users.sourceforge.net>
+ricardofabbri N.N. <ricardofabbri@users.sourceforge.net>
+ritsch Winfried Ritsch <ritsch@users.sourceforge.net>
+root N.N. <root@users.sourceforge.net>
+rudk David Doukhan <rudk@users.sourceforge.net>
+russellbryant Russell Bryant <russellbryant@users.sourceforge.net>
+sergi_ll N.N. <sergi_ll@users.sourceforge.net>
+sevyves N.N. <sevyves@users.sourceforge.net>
+tigital Jamie Tittle <tigital@users.sourceforge.net>
+timblech Tim Blechmann <timblech@users.sourceforge.net>
+tmusil musil <tmusil@users.sourceforge.net>
+uid151795 N.N. <uid151795@users.sourceforge.net>
+uid73178 N.N. <uid73178@users.sourceforge.net>
+vdongen Gerard van Dongen <vdongen@users.sourceforge.net>
+x75 jdl <x75@users.sourceforge.net>
+xovo Thomas Grill <xovo@users.sourceforge.net>
+zacksettel zacksettel <zacksettel@users.sourceforge.net>
+zmoelnig IOhannes m zmölnig <zmoelnig@users.sourceforge.net>
