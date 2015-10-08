@@ -2,7 +2,7 @@
 # Declare the repositories we know about:
 #
 
-create repository iemnet
+create repository GIT/iemnet
 end repository
 
 #
@@ -11,17 +11,17 @@ end repository
 #
 
 match /trunk/externals/iem/iemnet/
-  repository iemnet
+  repository GIT/iemnet
   branch master
 end match
 
 match /branches/pd-extended/0.43/externals/iem/iemnet/
-  repository iemnet
+  repository GIT/iemnet
   branch pdx-0.43
 end match
 
 match /tags/externals/iem/iemnet-0.1/
-  repository iemnet
+  repository GIT/iemnet
   branch v0.1
 end match
 
