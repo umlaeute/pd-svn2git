@@ -25,4 +25,4 @@ if [ ! -e "${AUTHORS}" ]; then
  exit 1
 fi
 
-svn-all-fast-export --identity-map="${AUTHORS}" --rules="${RULES}" "${SVNPATH}"
+svn-all-fast-export --stats --identity-map="${AUTHORS}" --rules="${RULES}" "${SVNPATH}"
