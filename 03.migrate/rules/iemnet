@@ -1,0 +1,30 @@
+#
+# Declare the repositories we know about:
+#
+
+create repository iemnet
+end repository
+
+#
+# Declare the rules
+# Note: rules must end in a slash
+#
+
+match /trunk/externals/iem/iemnet/
+  repository iemnet
+  branch master
+end match
+
+match /branches/pd-extended/0.43/externals/iem/iemnet/
+  repository iemnet
+  branch pdx-0.43
+end match
+
+match /tags/externals/iem/iemnet-0.1/
+  repository iemnet
+  branch v0.1
+end match
+
+match /
+  # ignore all the rest
+end match
