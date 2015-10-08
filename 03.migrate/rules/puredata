@@ -1,3 +1,5 @@
+create repository GIT/trunk
+end repository
 create repository GIT/64bit-warning-plugin
 end repository
 create repository GIT/aalex
@@ -1264,4 +1266,10 @@ end match
 match /trunk/externals/zhzxh~/
   repository GIT/zhzxh~
   branch master
+end match
+match /trunk/
+  repository GIT/trunk
+  branch master
+end match
+match /
 end match
