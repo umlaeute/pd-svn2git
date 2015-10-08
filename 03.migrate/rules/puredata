@@ -1,0 +1,1267 @@
+create repository GIT/64bit-warning-plugin
+end repository
+create repository GIT/aalex
+end repository
+create repository GIT/aconnect
+end repository
+create repository GIT/aenv~
+end repository
+create repository GIT/aka.wiiremote
+end repository
+create repository GIT/algocomp
+end repository
+create repository GIT/amixer
+end repository
+create repository GIT/ann
+end repository
+create repository GIT/apple
+end repository
+create repository GIT/arduino
+end repository
+create repository GIT/arduino
+end repository
+create repository GIT/arraysize
+end repository
+create repository GIT/bassemu~
+end repository
+create repository GIT/bassemu~
+end repository
+create repository GIT/bbogart
+end repository
+create repository GIT/beatpipe
+end repository
+create repository GIT/bidi-plugin
+end repository
+create repository GIT/boids
+end repository
+create repository GIT/bsaylor
+end repository
+create repository GIT/buttonbar-plugin
+end repository
+create repository GIT/buttonbar-plugin
+end repository
+create repository GIT/buttonpopup-plugin
+end repository
+create repository GIT/category_menu-plugin
+end repository
+create repository GIT/chaos
+end repository
+create repository GIT/tb-chaos
+end repository
+create repository GIT/clr
+end repository
+create repository GIT/comport
+end repository
+create repository GIT/corelibs
+end repository
+create repository GIT/creb
+end repository
+create repository GIT/cw_binaural~
+end repository
+create repository GIT/cxc
+end repository
+create repository GIT/dfx
+end repository
+create repository GIT/dmx512
+end repository
+create repository GIT/DMXUSBPro
+end repository
+create repository GIT/doc
+end repository
+create repository GIT/dropsuite-plugin
+end repository
+create repository GIT/ds-gui
+end repository
+create repository GIT/earplug~
+end repository
+create repository GIT/ekext
+end repository
+create repository GIT/espeak
+end repository
+create repository GIT/ext13
+end repository
+create repository GIT/ezfile
+end repository
+create repository GIT/ffext
+end repository
+create repository GIT/fft_convolution
+end repository
+create repository GIT/fftease
+end repository
+create repository GIT/ff
+end repository
+create repository GIT/fftw
+end repository
+create repository GIT/file_associations
+end repository
+create repository GIT/flatgui
+end repository
+create repository GIT/footils
+end repository
+create repository GIT/footils
+end repository
+create repository GIT/Framestein
+end repository
+create repository GIT/framesync
+end repository
+create repository GIT/frankenstein
+end repository
+create repository GIT/freeverb~
+end repository
+create repository GIT/gem2pdp
+end repository
+create repository GIT/ggee
+end repository
+create repository GIT/grh
+end repository
+create repository GIT/gridflow
+end repository
+create repository GIT/gripd
+end repository
+create repository GIT/GYRE
+end repository
+create repository GIT/hcs
+end repository
+create repository GIT/hdspm_mixer
+end repository
+create repository GIT/hexloader
+end repository
+create repository GIT/hidio
+end repository
+create repository GIT/hid
+end repository
+create repository GIT/hid
+end repository
+create repository GIT/iem16
+end repository
+create repository GIT/iem_adaptfilt
+end repository
+create repository GIT/iem_ambi
+end repository
+create repository GIT/iem_bin_ambi
+end repository
+create repository GIT/iem_delay
+end repository
+create repository GIT/iem_dp
+end repository
+create repository GIT/iemgui
+end repository
+create repository GIT/iemguts
+end repository
+create repository GIT/iemlib
+end repository
+create repository GIT/iem_matrix
+end repository
+create repository GIT/iemmatrix
+end repository
+create repository GIT/iemnet
+end repository
+create repository GIT/iem_roomsim
+end repository
+create repository GIT/iem_spec2
+end repository
+create repository GIT/iemstream
+end repository
+create repository GIT/iem_tab
+end repository
+create repository GIT/iemxmlrpc
+end repository
+create repository GIT/import
+end repository
+create repository GIT/input_noticer
+end repository
+create repository GIT/itrax2
+end repository
+create repository GIT/jack_transport
+end repository
+create repository GIT/jackx
+end repository
+create repository GIT/jasch_lib
+end repository
+create repository GIT/jmmmp
+end repository
+create repository GIT/k_cext
+end repository
+create repository GIT/keyboardkeys
+end repository
+create repository GIT/k_guile
+end repository
+create repository GIT/kiosk-plugin
+end repository
+create repository GIT/kiosk-plugin
+end repository
+create repository GIT/k_jack~
+end repository
+create repository GIT/k_vst~
+end repository
+create repository GIT/la-kitchen
+end repository
+create repository GIT/lanbox
+end repository
+create repository GIT/libdir
+end repository
+create repository GIT/log
+end repository
+create repository GIT/manypoly
+end repository
+create repository GIT/many
+end repository
+create repository GIT/mapping
+end repository
+create repository GIT/markex
+end repository
+create repository GIT/maxlib
+end repository
+create repository GIT/mediasettings
+end repository
+create repository GIT/memPIO
+end repository
+create repository GIT/meta-abs
+end repository
+create repository GIT/MIDIvice
+end repository
+create repository GIT/miXed
+end repository
+create repository GIT/mjlib
+end repository
+create repository GIT/mmonoplayer
+end repository
+create repository GIT/moocow
+end repository
+create repository GIT/moonlib
+end repository
+create repository GIT/motex
+end repository
+create repository GIT/mrpeach
+end repository
+create repository GIT/mtl
+end repository
+create repository GIT/multio
+end repository
+create repository GIT/new-from-template-plugin
+end repository
+create repository GIT/nqpoly
+end repository
+create repository GIT/nusmuk
+end repository
+create repository GIT/nusmuk
+end repository
+create repository GIT/object_db-plugin
+end repository
+create repository GIT/object_db-plugin
+end repository
+create repository GIT/olafmatt
+end repository
+create repository GIT/oscbank~
+end repository
+create repository GIT/OSCx
+end repository
+create repository GIT/OSCx
+end repository
+create repository GIT/packages
+end repository
+create repository GIT/pan
+end repository
+create repository GIT/pan
+end repository
+create repository GIT/parazit
+end repository
+create repository GIT/pddp
+end repository
+create repository GIT/pddp
+end repository
+create repository GIT/pdj
+end repository
+create repository GIT/pdlua
+end repository
+create repository GIT/pdlua
+end repository
+create repository GIT/pdmtl
+end repository
+create repository GIT/pdoctave
+end repository
+create repository GIT/pdogg
+end repository
+create repository GIT/pdp_opencv
+end repository
+create repository GIT/pdp
+end repository
+create repository GIT/pdstring
+end repository
+create repository GIT/pduino
+end repository
+create repository GIT/pdvjtools
+end repository
+create repository GIT/pd-wavelet
+end repository
+create repository GIT/pidip
+end repository
+create repository GIT/pixelTANGO
+end repository
+create repository GIT/pix_opencv
+end repository
+create repository GIT/plugin~
+end repository
+create repository GIT/pmpd
+end repository
+create repository GIT/popen
+end repository
+create repository GIT/postlude
+end repository
+create repository GIT/ptz-camera
+end repository
+create repository GIT/puremeasurement
+end repository
+create repository GIT/purepd
+end repository
+create repository GIT/purepd
+end repository
+create repository GIT/pureunity
+end repository
+create repository GIT/pureunity
+end repository
+create repository GIT/quickbindings
+end repository
+create repository GIT/readanysf~
+end repository
+create repository GIT/rhythm_estimator
+end repository
+create repository GIT/rradical
+end repository
+create repository GIT/s-abstractions
+end repository
+create repository GIT/sc4pd
+end repository
+create repository GIT/scripts
+end repository
+create repository GIT/sdiflists
+end repository
+create repository GIT/search-plugin
+end repository
+create repository GIT/senderfruit
+end repository
+create repository GIT/sfruit
+end repository
+create repository GIT/share_mem
+end repository
+create repository GIT/sigpack
+end repository
+create repository GIT/simple_examples
+end repository
+create repository GIT/sixaxis
+end repository
+create repository GIT/smlib
+end repository
+create repository GIT/sndfiler
+end repository
+create repository GIT/snmp
+end repository
+create repository GIT/soundfile
+end repository
+create repository GIT/sprinkler
+end repository
+create repository GIT/srt
+end repository
+create repository GIT/supercollider
+end repository
+create repository GIT/susloop~
+end repository
+create repository GIT/svf~
+end repository
+create repository GIT/syslog
+end repository
+create repository GIT/tb
+end repository
+create repository GIT/tb
+end repository
+create repository GIT/tclfile
+end repository
+create repository GIT/tclpd
+end repository
+create repository GIT/tclpd
+end repository
+create repository GIT/template
+end repository
+create repository GIT/testtools
+end repository
+create repository GIT/timestretch
+end repository
+create repository GIT/tkwidgets
+end repository
+create repository GIT/tof
+end repository
+create repository GIT/trainingwheels-plugin
+end repository
+create repository GIT/uDMX
+end repository
+create repository GIT/unauthorized
+end repository
+create repository GIT/unicode
+end repository
+create repository GIT/urloader
+end repository
+create repository GIT/vadsr~
+end repository
+create repository GIT/vbap
+end repository
+create repository GIT/vst
+end repository
+create repository GIT/w32mote
+end repository
+create repository GIT/wiimote
+end repository
+create repository GIT/wiiremote
+end repository
+create repository GIT/windowing
+end repository
+create repository GIT/xbee
+end repository
+create repository GIT/zexy
+end repository
+create repository GIT/zhzxh~
+end repository
+
+match /trunk/scripts/guiplugins/64bit-warning-plugin/
+  repository GIT/64bit-warning-plugin
+  branch master
+end match
+match /trunk/externals/aalex/
+  repository GIT/aalex
+  branch master
+end match
+match /trunk/externals/iem/aconnect/
+  repository GIT/aconnect
+  branch master
+end match
+match /trunk/externals/aenv~/
+  repository GIT/aenv~
+  branch master
+end match
+match /trunk/externals/io/aka.wiiremote/
+  repository GIT/aka.wiiremote
+  branch master
+end match
+match /trunk/externals/algocomp/
+  repository GIT/algocomp
+  branch master
+end match
+match /trunk/externals/iem/amixer/
+  repository GIT/amixer
+  branch master
+end match
+match /trunk/externals/ann/
+  repository GIT/ann
+  branch master
+end match
+match /trunk/externals/apple/
+  repository GIT/apple
+  branch master
+end match
+match /trunk/externals/arduino/
+  repository GIT/arduino
+  branch master
+end match
+match /trunk/externals/hardware/arduino/
+  repository GIT/arduino
+  branch master
+end match
+match /trunk/externals/arraysize/
+  repository GIT/arraysize
+  branch master
+end match
+match /trunk/externals/bassemu~/
+  repository GIT/bassemu~
+  branch master
+end match
+match /trunk/externals/bassemu/
+  repository GIT/bassemu~
+  branch master
+end match
+match /trunk/externals/bbogart/
+  repository GIT/bbogart
+  branch master
+end match
+match /trunk/externals/beatpipe/
+  repository GIT/beatpipe
+  branch master
+end match
+match /trunk/guiplugins/bidi-plugin/
+  repository GIT/bidi-plugin
+  branch master
+end match
+match /trunk/externals/boids/
+  repository GIT/boids
+  branch master
+end match
+match /trunk/externals/bsaylor/
+  repository GIT/bsaylor
+  branch master
+end match
+match /trunk/scripts/guiplugins/buttonbar-plugin/
+  repository GIT/buttonbar-plugin
+  branch master
+end match
+match /trunk/scripts/guiplugins/buttonbar/
+  repository GIT/buttonbar-plugin
+  branch master
+end match
+match /trunk/scripts/guiplugins/buttonpopup-plugin/
+  repository GIT/buttonpopup-plugin
+  branch master
+end match
+match /trunk/scripts/guiplugins/category_menu-plugin/
+  repository GIT/category_menu-plugin
+  branch master
+end match
+match /trunk/externals/chaos/
+  repository GIT/chaos
+  branch master
+end match
+match /trunk/externals/tb/chaos/
+  repository GIT/tb-chaos
+  branch master
+end match
+match /trunk/externals/clr/
+  repository GIT/clr
+  branch master
+end match
+match /trunk/externals/iem/comport/
+  repository GIT/comport
+  branch master
+end match
+match /trunk/externals/corelibs/
+  repository GIT/corelibs
+  branch master
+end match
+match /trunk/externals/creb/
+  repository GIT/creb
+  branch master
+end match
+match /trunk/externals/ddoukhan/cw_binaural~/
+  repository GIT/cw_binaural~
+  branch master
+end match
+match /trunk/externals/cxc/
+  repository GIT/cxc
+  branch master
+end match
+match /trunk/externals/dfx/
+  repository GIT/dfx
+  branch master
+end match
+match /trunk/externals/iem/dmx512/
+  repository GIT/dmx512
+  branch master
+end match
+match /trunk/externals/hardware/DMXUSBPro/
+  repository GIT/DMXUSBPro
+  branch master
+end match
+match /trunk/doc/
+  repository GIT/doc
+  branch master
+end match
+match /trunk/scripts/guiplugins/dropsuite-plugin/
+  repository GIT/dropsuite-plugin
+  branch master
+end match
+match /trunk/abstractions/ds-gui/
+  repository GIT/ds-gui
+  branch master
+end match
+match /trunk/externals/earplug~/
+  repository GIT/earplug~
+  branch master
+end match
+match /trunk/externals/ekext/
+  repository GIT/ekext
+  branch master
+end match
+match /trunk/externals/espeak/
+  repository GIT/espeak
+  branch master
+end match
+match /trunk/externals/ext13/
+  repository GIT/ext13
+  branch master
+end match
+match /trunk/externals/ezfile/
+  repository GIT/ezfile
+  branch master
+end match
+match /trunk/externals/ffext/
+  repository GIT/ffext
+  branch master
+end match
+match /trunk/abstractions/fft_convolution/
+  repository GIT/fft_convolution
+  branch master
+end match
+match /trunk/externals/fftease/
+  repository GIT/fftease
+  branch master
+end match
+match /trunk/externals/ff/
+  repository GIT/ff
+  branch master
+end match
+match /trunk/externals/fftw/
+  repository GIT/fftw
+  branch master
+end match
+match /trunk/scripts/guiplugins/file_associations/
+  repository GIT/file_associations
+  branch master
+end match
+match /trunk/externals/flatgui/
+  repository GIT/flatgui
+  branch master
+end match
+match /trunk/abstractions/footils/
+  repository GIT/footils
+  branch master
+end match
+match /trunk/externals/footils/
+  repository GIT/footils
+  branch master
+end match
+match /trunk/Framestein/
+  repository GIT/Framestein
+  branch master
+end match
+match /trunk/externals/framesync/
+  repository GIT/framesync
+  branch master
+end match
+match /trunk/externals/frankenstein/
+  repository GIT/frankenstein
+  branch master
+end match
+match /trunk/externals/freeverb~/
+  repository GIT/freeverb~
+  branch master
+end match
+match /trunk/externals/gem2pdp/
+  repository GIT/gem2pdp
+  branch master
+end match
+match /trunk/externals/ggee/
+  repository GIT/ggee
+  branch master
+end match
+match /trunk/externals/grh/
+  repository GIT/grh
+  branch master
+end match
+match /trunk/externals/gridflow/
+  repository GIT/gridflow
+  branch master
+end match
+match /trunk/extensions/gripd/
+  repository GIT/gripd
+  branch master
+end match
+match /trunk/abstractions/audionerd/GYRE/
+  repository GIT/GYRE
+  branch master
+end match
+match /trunk/externals/hcs/
+  repository GIT/hcs
+  branch master
+end match
+match /trunk/externals/iem/hdspm_mixer/
+  repository GIT/hdspm_mixer
+  branch master
+end match
+match /trunk/externals/loaders/hexloader/
+  repository GIT/hexloader
+  branch master
+end match
+match /trunk/externals/io/hidio/
+  repository GIT/hidio
+  branch master
+end match
+match /trunk/externals/hcs/hid/
+  repository GIT/hid
+  branch master
+end match
+match /trunk/externals/hid/
+  repository GIT/hid
+  branch master
+end match
+match /trunk/externals/iem16/
+  repository GIT/iem16
+  branch master
+end match
+match /trunk/externals/iem/iem_adaptfilt/
+  repository GIT/iem_adaptfilt
+  branch master
+end match
+match /trunk/externals/iem/iem_ambi/
+  repository GIT/iem_ambi
+  branch master
+end match
+match /trunk/externals/iem/iem_bin_ambi/
+  repository GIT/iem_bin_ambi
+  branch master
+end match
+match /trunk/externals/iem/iem_delay/
+  repository GIT/iem_delay
+  branch master
+end match
+match /trunk/externals/iem/iem_dp/
+  repository GIT/iem_dp
+  branch master
+end match
+match /trunk/externals/iem/iemgui/
+  repository GIT/iemgui
+  branch master
+end match
+match /trunk/externals/iem/iemguts/
+  repository GIT/iemguts
+  branch master
+end match
+match /trunk/externals/iemlib/
+  repository GIT/iemlib
+  branch master
+end match
+match /trunk/externals/iem/iem_matrix/
+  repository GIT/iem_matrix
+  branch master
+end match
+match /trunk/externals/iem/iemmatrix/
+  repository GIT/iemmatrix
+  branch master
+end match
+match /trunk/externals/iem/iemnet/
+  repository GIT/iemnet
+  branch master
+end match
+match /trunk/externals/iem/iem_roomsim/
+  repository GIT/iem_roomsim
+  branch master
+end match
+match /trunk/externals/iem/iem_spec2/
+  repository GIT/iem_spec2
+  branch master
+end match
+match /trunk/externals/iem/iemstream/
+  repository GIT/iemstream
+  branch master
+end match
+match /trunk/externals/iem/iem_tab/
+  repository GIT/iem_tab
+  branch master
+end match
+match /trunk/externals/iem/iemxmlrpc/
+  repository GIT/iemxmlrpc
+  branch master
+end match
+match /trunk/externals/import/
+  repository GIT/import
+  branch master
+end match
+match /trunk/externals/input_noticer/
+  repository GIT/input_noticer
+  branch master
+end match
+match /trunk/externals/hardware/itrax2/
+  repository GIT/itrax2
+  branch master
+end match
+match /trunk/externals/tb/jack_transport/
+  repository GIT/jack_transport
+  branch master
+end match
+match /trunk/externals/jackx/
+  repository GIT/jackx
+  branch master
+end match
+match /trunk/externals/jasch_lib/
+  repository GIT/jasch_lib
+  branch master
+end match
+match /trunk/abstractions/jmmmp/
+  repository GIT/jmmmp
+  branch master
+end match
+match /trunk/externals/k_cext/
+  repository GIT/k_cext
+  branch master
+end match
+match /trunk/abstractions/keyboardkeys/
+  repository GIT/keyboardkeys
+  branch master
+end match
+match /trunk/externals/k_guile/
+  repository GIT/k_guile
+  branch master
+end match
+match /trunk/guiplugins/kiosk-plugin/
+  repository GIT/kiosk-plugin
+  branch master
+end match
+match /trunk/scripts/guiplugins/kiosk-plugin/
+  repository GIT/kiosk-plugin
+  branch master
+end match
+match /trunk/externals/k_jack~/
+  repository GIT/k_jack~
+  branch master
+end match
+match /trunk/externals/k_vst~/
+  repository GIT/k_vst~
+  branch master
+end match
+match /trunk/abstractions/La-kitchen/
+  repository GIT/la-kitchen
+  branch master
+end match
+match /trunk/externals/hardware/lanbox/
+  repository GIT/lanbox
+  branch master
+end match
+match /trunk/externals/loaders/libdir/
+  repository GIT/libdir
+  branch master
+end match
+match /trunk/externals/log/
+  repository GIT/log
+  branch master
+end match
+match /trunk/externals/manypoly/
+  repository GIT/manypoly
+  branch master
+end match
+match /trunk/externals/many/
+  repository GIT/many
+  branch master
+end match
+match /trunk/externals/mapping/
+  repository GIT/mapping
+  branch master
+end match
+match /trunk/externals/markex/
+  repository GIT/markex
+  branch master
+end match
+match /trunk/externals/maxlib/
+  repository GIT/maxlib
+  branch master
+end match
+match /trunk/externals/iem/mediasettings/
+  repository GIT/mediasettings
+  branch master
+end match
+match /trunk/externals/hardware/memPIO/
+  repository GIT/memPIO
+  branch master
+end match
+match /trunk/abstractions/meta-abs/
+  repository GIT/meta-abs
+  branch master
+end match
+match /trunk/externals/hardware/MIDIvice/
+  repository GIT/MIDIvice
+  branch master
+end match
+match /trunk/externals/miXed/
+  repository GIT/miXed
+  branch master
+end match
+match /trunk/externals/mjlib/
+  repository GIT/mjlib
+  branch master
+end match
+match /trunk/externals/mmonoplayer/
+  repository GIT/mmonoplayer
+  branch master
+end match
+match /trunk/externals/moocow/
+  repository GIT/moocow
+  branch master
+end match
+match /trunk/externals/moonlib/
+  repository GIT/moonlib
+  branch master
+end match
+match /trunk/externals/motex/
+  repository GIT/motex
+  branch master
+end match
+match /trunk/externals/mrpeach/
+  repository GIT/mrpeach
+  branch master
+end match
+match /trunk/abstractions/mtl/
+  repository GIT/mtl
+  branch master
+end match
+match /trunk/externals/hardware/multio/
+  repository GIT/multio
+  branch master
+end match
+match /trunk/scripts/guiplugins/new-from-template-plugin/
+  repository GIT/new-from-template-plugin
+  branch master
+end match
+match /trunk/abstractions/nqpoly/
+  repository GIT/nqpoly
+  branch master
+end match
+match /trunk/abstractions/nusmuk/
+  repository GIT/nusmuk
+  branch master
+end match
+match /trunk/externals/nusmuk/
+  repository GIT/nusmuk
+  branch master
+end match
+match /trunk/scripts/guiplugins/object_db-plugin/
+  repository GIT/object_db-plugin
+  branch master
+end match
+match /trunk/scripts/guiplugins/object_db/
+  repository GIT/object_db-plugin
+  branch master
+end match
+match /trunk/externals/olafmatt/
+  repository GIT/olafmatt
+  branch master
+end match
+match /trunk/externals/oscbank~/
+  repository GIT/oscbank~
+  branch master
+end match
+match /trunk/externals/oscx/
+  repository GIT/OSCx
+  branch master
+end match
+match /trunk/externals/OSCx/
+  repository GIT/OSCx
+  branch master
+end match
+match /trunk/packages/
+  repository GIT/packages
+  branch master
+end match
+match /trunk/externals/hcs/pan/
+  repository GIT/pan
+  branch master
+end match
+match /trunk/externals/pan/
+  repository GIT/pan
+  branch master
+end match
+match /trunk/abstractions/parazit/
+  repository GIT/parazit
+  branch master
+end match
+match /trunk/abstractions/pddp/
+  repository GIT/pddp
+  branch master
+end match
+match /trunk/externals/pddp/
+  repository GIT/pddp
+  branch master
+end match
+match /trunk/externals/loaders/pdj/
+  repository GIT/pdj
+  branch master
+end match
+match /trunk/externals/loaders/pdlua/
+  repository GIT/pdlua
+  branch master
+end match
+match /trunk/externals/pdlua/
+  repository GIT/pdlua
+  branch master
+end match
+match /trunk/abstractions/pdmtl/
+  repository GIT/pdmtl
+  branch master
+end match
+match /trunk/externals/iem/pdoctave/
+  repository GIT/pdoctave
+  branch master
+end match
+match /trunk/externals/pdogg/
+  repository GIT/pdogg
+  branch master
+end match
+match /trunk/externals/pdp_opencv/
+  repository GIT/pdp_opencv
+  branch master
+end match
+match /trunk/externals/pdp/
+  repository GIT/pdp
+  branch master
+end match
+match /trunk/externals/moocow/pdstring/
+  repository GIT/pdstring
+  branch master
+end match
+match /trunk/externals/pduino/
+  repository GIT/pduino
+  branch master
+end match
+match /trunk/externals/pdvjtools/
+  repository GIT/pdvjtools
+  branch master
+end match
+match /trunk/abstractions/pd-wavelet/
+  repository GIT/pd-wavelet
+  branch master
+end match
+match /trunk/externals/pidip/
+  repository GIT/pidip
+  branch master
+end match
+match /trunk/abstractions/pixelTANGO/
+  repository GIT/pixelTANGO
+  branch master
+end match
+match /trunk/externals/pix_opencv/
+  repository GIT/pix_opencv
+  branch master
+end match
+match /trunk/externals/plugin~/
+  repository GIT/plugin~
+  branch master
+end match
+match /trunk/externals/pmpd/
+  repository GIT/pmpd
+  branch master
+end match
+match /trunk/externals/control/popen/
+  repository GIT/popen
+  branch master
+end match
+match /trunk/externals/postlude/
+  repository GIT/postlude
+  branch master
+end match
+match /trunk/abstractions/ptz-camera/
+  repository GIT/ptz-camera
+  branch master
+end match
+match /trunk/abstractions/puremeasurement/
+  repository GIT/puremeasurement
+  branch master
+end match
+match /trunk/abstractions/purepd/
+  repository GIT/purepd
+  branch master
+end match
+match /trunk/externals/hcs/purepd/
+  repository GIT/purepd
+  branch master
+end match
+match /trunk/abstractions/pureunity/
+  repository GIT/pureunity
+  branch master
+end match
+match /trunk/externals/pureunity/
+  repository GIT/pureunity
+  branch master
+end match
+match /trunk/scripts/guiplugins/quickbindings/
+  repository GIT/quickbindings
+  branch master
+end match
+match /trunk/externals/august/readanysf~/
+  repository GIT/readanysf~
+  branch master
+end match
+match /trunk/externals/rhythm_estimator/
+  repository GIT/rhythm_estimator
+  branch master
+end match
+match /trunk/abstractions/rradical/
+  repository GIT/rradical
+  branch master
+end match
+match /trunk/abstractions/s-abstractions/
+  repository GIT/s-abstractions
+  branch master
+end match
+match /trunk/externals/tb/sc4pd/
+  repository GIT/sc4pd
+  branch master
+end match
+match /trunk/scripts/
+  repository GIT/scripts
+  branch master
+end match
+match /trunk/externals/reakin/sdiflists/
+  repository GIT/sdiflists
+  branch master
+end match
+match /trunk/scripts/guiplugins/search-plugin/
+  repository GIT/search-plugin
+  branch master
+end match
+match /trunk/abstractions/senderfruit/
+  repository GIT/senderfruit
+  branch master
+end match
+match /trunk/abstractions/sfruit/
+  repository GIT/sfruit
+  branch master
+end match
+match /trunk/externals/share_mem/
+  repository GIT/share_mem
+  branch master
+end match
+match /trunk/externals/sigpack/
+  repository GIT/sigpack
+  branch master
+end match
+match /trunk/scripts/guiplugins/simple_examples/
+  repository GIT/simple_examples
+  branch master
+end match
+match /trunk/externals/io/sixaxis/
+  repository GIT/sixaxis
+  branch master
+end match
+match /trunk/externals/smlib/
+  repository GIT/smlib
+  branch master
+end match
+match /trunk/externals/tb/sndfiler/
+  repository GIT/sndfiler
+  branch master
+end match
+match /trunk/externals/iem/snmp/
+  repository GIT/snmp
+  branch master
+end match
+match /trunk/externals/soundfile/
+  repository GIT/soundfile
+  branch master
+end match
+match /trunk/externals/sprinkler/
+  repository GIT/sprinkler
+  branch master
+end match
+match /trunk/externals/srt/
+  repository GIT/srt
+  branch master
+end match
+match /trunk/externals/supercollider/
+  repository GIT/supercollider
+  branch master
+end match
+match /trunk/externals/susloop~/
+  repository GIT/susloop~
+  branch master
+end match
+match /trunk/externals/svf~/
+  repository GIT/svf~
+  branch master
+end match
+match /trunk/externals/iem/syslog/
+  repository GIT/syslog
+  branch master
+end match
+match /trunk/abstractions/tb/
+  repository GIT/tb
+  branch master
+end match
+match /trunk/externals/tb/
+  repository GIT/tb
+  branch master
+end match
+match /trunk/externals/tclfile/
+  repository GIT/tclfile
+  branch master
+end match
+match /trunk/externals/loaders/tclpd/
+  repository GIT/tclpd
+  branch master
+end match
+match /trunk/externals/tclpd/
+  repository GIT/tclpd
+  branch master
+end match
+match /trunk/externals/template/
+  repository GIT/template
+  branch master
+end match
+match /trunk/externals/testtools/
+  repository GIT/testtools
+  branch master
+end match
+match /trunk/abstractions/timestretch/
+  repository GIT/timestretch
+  branch master
+end match
+match /trunk/externals/tkwidgets/
+  repository GIT/tkwidgets
+  branch master
+end match
+match /trunk/externals/tof/
+  repository GIT/tof
+  branch master
+end match
+match /trunk/scripts/guiplugins/trainingwheels-plugin/
+  repository GIT/trainingwheels-plugin
+  branch master
+end match
+match /trunk/externals/hardware/uDMX/
+  repository GIT/uDMX
+  branch master
+end match
+match /trunk/externals/unauthorized/
+  repository GIT/unauthorized
+  branch master
+end match
+match /trunk/externals/iem/unicode/
+  repository GIT/unicode
+  branch master
+end match
+match /trunk/externals/loaders/urloader/
+  repository GIT/urloader
+  branch master
+end match
+match /trunk/abstractions/vadsr~/
+  repository GIT/vadsr~
+  branch master
+end match
+match /trunk/externals/vbap/
+  repository GIT/vbap
+  branch master
+end match
+match /trunk/externals/vst/
+  repository GIT/vst
+  branch master
+end match
+match /trunk/externals/hardware/w32mote/
+  repository GIT/w32mote
+  branch master
+end match
+match /trunk/externals/hardware/wiimote/
+  repository GIT/wiimote
+  branch master
+end match
+match /trunk/externals/io/wiiremote/
+  repository GIT/wiiremote
+  branch master
+end match
+match /trunk/externals/windowing/
+  repository GIT/windowing
+  branch master
+end match
+match /trunk/externals/io/xbee/
+  repository GIT/xbee
+  branch master
+end match
+match /trunk/externals/zexy/
+  repository GIT/zexy
+  branch master
+end match
+match /trunk/externals/zhzxh~/
+  repository GIT/zhzxh~
+  branch master
+end match
