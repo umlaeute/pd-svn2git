@@ -226,6 +226,8 @@ create repository GIT/olafmatt
 end repository
 create repository GIT/oscbank~
 end repository
+create repository GIT/oscx
+end repository
 create repository GIT/OSCx
 end repository
 create repository GIT/packages
@@ -297,8 +299,6 @@ end repository
 create repository GIT/sdiflists
 end repository
 create repository GIT/search-plugin
-end repository
-create repository GIT/senderfruit
 end repository
 create repository GIT/sfruit
 end repository
@@ -811,6 +811,10 @@ match /trunk/externals/mmonoplayer/
   repository GIT/mmonoplayer
   branch master
 end match
+match /trunk/externals/moocow/pdstring/
+  repository GIT/pdstring
+  branch master
+end match
 match /trunk/externals/moocow/
   repository GIT/moocow
   branch master
@@ -864,7 +868,7 @@ match /trunk/externals/oscbank~/
   branch master
 end match
 match /trunk/externals/oscx/
-  repository GIT/OSCx
+  repository GIT/oscx
   branch master
 end match
 match /trunk/externals/OSCx/
@@ -925,10 +929,6 @@ match /trunk/externals/pdp_opencv/
 end match
 match /trunk/externals/pdp/
   repository GIT/pdp
-  branch master
-end match
-match /trunk/externals/moocow/pdstring/
-  repository GIT/pdstring
   branch master
 end match
 match /trunk/externals/pduino/
@@ -1032,7 +1032,7 @@ match /trunk/scripts/guiplugins/search-plugin/
   branch master
 end match
 match /trunk/abstractions/senderfruit/
-  repository GIT/senderfruit
+  repository GIT/sfruit
   branch master
 end match
 match /trunk/abstractions/sfruit/
