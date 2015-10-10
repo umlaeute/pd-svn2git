@@ -16,6 +16,9 @@ do
 echo "create repository GIT/${repo}"
 echo "end repository"
 done
+
+echo "create repository GIT/trunk"
+echo "end repository"
 }
 
 create_matches() {
@@ -26,6 +29,17 @@ echo "  repository GIT/${repo}"
 echo "  branch master"
 echo "end match"
 done
+
+cat << EOF
+
+# catch-all rules
+match /trunk/
+  repository GIT/trunk
+  branch master
+end match
+match /
+end match
+EOF
 }
 
 create_rules() {
