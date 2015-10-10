@@ -1,5 +1,3 @@
-create repository GIT/trunk
-end repository
 create repository GIT/64bit-warning-plugin
 end repository
 create repository GIT/aalex
@@ -20,11 +18,7 @@ create repository GIT/apple
 end repository
 create repository GIT/arduino
 end repository
-create repository GIT/arduino
-end repository
 create repository GIT/arraysize
-end repository
-create repository GIT/bassemu~
 end repository
 create repository GIT/bassemu~
 end repository
@@ -40,15 +34,11 @@ create repository GIT/bsaylor
 end repository
 create repository GIT/buttonbar-plugin
 end repository
-create repository GIT/buttonbar-plugin
-end repository
 create repository GIT/buttonpopup-plugin
 end repository
 create repository GIT/category_menu-plugin
 end repository
 create repository GIT/chaos
-end repository
-create repository GIT/tb-chaos
 end repository
 create repository GIT/clr
 end repository
@@ -84,21 +74,19 @@ create repository GIT/ext13
 end repository
 create repository GIT/ezfile
 end repository
+create repository GIT/ff
+end repository
 create repository GIT/ffext
 end repository
 create repository GIT/fft_convolution
 end repository
 create repository GIT/fftease
 end repository
-create repository GIT/ff
-end repository
 create repository GIT/fftw
 end repository
 create repository GIT/file_associations
 end repository
 create repository GIT/flatgui
-end repository
-create repository GIT/footils
 end repository
 create repository GIT/footils
 end repository
@@ -128,11 +116,9 @@ create repository GIT/hdspm_mixer
 end repository
 create repository GIT/hexloader
 end repository
+create repository GIT/hid
+end repository
 create repository GIT/hidio
-end repository
-create repository GIT/hid
-end repository
-create repository GIT/hid
 end repository
 create repository GIT/iem16
 end repository
@@ -152,9 +138,9 @@ create repository GIT/iemguts
 end repository
 create repository GIT/iemlib
 end repository
-create repository GIT/iem_matrix
-end repository
 create repository GIT/iemmatrix
+end repository
+create repository GIT/iem_matrix
 end repository
 create repository GIT/iemnet
 end repository
@@ -190,8 +176,6 @@ create repository GIT/k_guile
 end repository
 create repository GIT/kiosk-plugin
 end repository
-create repository GIT/kiosk-plugin
-end repository
 create repository GIT/k_jack~
 end repository
 create repository GIT/k_vst~
@@ -204,9 +188,9 @@ create repository GIT/libdir
 end repository
 create repository GIT/log
 end repository
-create repository GIT/manypoly
-end repository
 create repository GIT/many
+end repository
+create repository GIT/manypoly
 end repository
 create repository GIT/mapping
 end repository
@@ -246,10 +230,6 @@ create repository GIT/nqpoly
 end repository
 create repository GIT/nusmuk
 end repository
-create repository GIT/nusmuk
-end repository
-create repository GIT/object_db-plugin
-end repository
 create repository GIT/object_db-plugin
 end repository
 create repository GIT/olafmatt
@@ -258,11 +238,7 @@ create repository GIT/oscbank~
 end repository
 create repository GIT/OSCx
 end repository
-create repository GIT/OSCx
-end repository
 create repository GIT/packages
-end repository
-create repository GIT/pan
 end repository
 create repository GIT/pan
 end repository
@@ -270,11 +246,7 @@ create repository GIT/parazit
 end repository
 create repository GIT/pddp
 end repository
-create repository GIT/pddp
-end repository
 create repository GIT/pdj
-end repository
-create repository GIT/pdlua
 end repository
 create repository GIT/pdlua
 end repository
@@ -284,9 +256,9 @@ create repository GIT/pdoctave
 end repository
 create repository GIT/pdogg
 end repository
-create repository GIT/pdp_opencv
-end repository
 create repository GIT/pdp
+end repository
+create repository GIT/pdp_opencv
 end repository
 create repository GIT/pdstring
 end repository
@@ -315,10 +287,6 @@ end repository
 create repository GIT/puremeasurement
 end repository
 create repository GIT/purepd
-end repository
-create repository GIT/purepd
-end repository
-create repository GIT/pureunity
 end repository
 create repository GIT/pureunity
 end repository
@@ -374,11 +342,9 @@ create repository GIT/syslog
 end repository
 create repository GIT/tb
 end repository
-create repository GIT/tb
+create repository GIT/tb-chaos
 end repository
 create repository GIT/tclfile
-end repository
-create repository GIT/tclpd
 end repository
 create repository GIT/tclpd
 end repository
@@ -421,6 +387,8 @@ end repository
 create repository GIT/zexy
 end repository
 create repository GIT/zhzxh~
+end repository
+create repository GIT/trunk
 end repository
 
 match /trunk/scripts/guiplugins/64bit-warning-plugin/
@@ -1267,6 +1235,8 @@ match /trunk/externals/zhzxh~/
   repository GIT/zhzxh~
   branch master
 end match
+
+# catch-all rules
 match /trunk/
   repository GIT/trunk
   branch master
