@@ -11,7 +11,7 @@ if [ ! -e "${REPOFILE}" ]; then
 fi
 
 create_repositories() {
-while read repo path
+awk '{print $1}'  | sort -u | while read repo
 do
 echo "create repository GIT/${repo}"
 echo "end repository"
