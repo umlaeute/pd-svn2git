@@ -11,7 +11,7 @@ if [ ! -e "${REPOFILE}" ]; then
 fi
 
 create_repositories() {
-awk '{print $1}'  | sort -u | while read repo
+awk '{print $1}'  | sort -u | while read repo _
 do
 echo "create repository GIT/${repo}"
 echo "end repository"
@@ -22,10 +22,16 @@ echo "end repository"
 }
 
 create_matches() {
-while read repo path
+while read repo path minrev maxrev
 do
 echo "match ${path}/"
 echo "  repository GIT/${repo}"
+if [ "x${minrev}" != "x" ]; then
+  echo "  min revision ${minrev}"
+fi
+if [ "x${maxrev}" != "x" ]; then
+  echo "  max revision ${maxrev}"
+fi
 echo "  branch master"
 echo "end match"
 done
