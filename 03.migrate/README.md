@@ -35,9 +35,9 @@ should all/most hardware go into a single library?
 
 # multi-path
 
-e.g. hcs/hid -> hid seems to not have worked
-e.g. OSCx vs oscx
-e.g. senderfruit vs sfruit
+- hcs/hid -> hid seems to not have worked
++ OSCx vs oscx
++ senderfruit vs sfruit
 
 
 
@@ -49,11 +49,11 @@ e.g. senderfruit vs sfruit
 - gridflow
 - manypoly
 - pdj
-- pdstring
++ pdstring
 - pidip
 - pureunity
 - search-plugin
-- senderfruit
++ senderfruit
 - simple_examples
 - sprinkler
 - susloop~
