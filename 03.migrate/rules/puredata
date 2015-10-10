@@ -56,8 +56,6 @@ create repository GIT/dfx
 end repository
 create repository GIT/dmx512
 end repository
-create repository GIT/DMXUSBPro
-end repository
 create repository GIT/doc
 end repository
 create repository GIT/dropsuite-plugin
@@ -110,6 +108,8 @@ create repository GIT/gripd
 end repository
 create repository GIT/GYRE
 end repository
+create repository GIT/hardware
+end repository
 create repository GIT/hcs
 end repository
 create repository GIT/hdspm_mixer
@@ -158,8 +158,6 @@ create repository GIT/import
 end repository
 create repository GIT/input_noticer
 end repository
-create repository GIT/itrax2
-end repository
 create repository GIT/jack_transport
 end repository
 create repository GIT/jackx
@@ -182,8 +180,6 @@ create repository GIT/k_vst~
 end repository
 create repository GIT/la-kitchen
 end repository
-create repository GIT/lanbox
-end repository
 create repository GIT/libdir
 end repository
 create repository GIT/log
@@ -200,11 +196,7 @@ create repository GIT/maxlib
 end repository
 create repository GIT/mediasettings
 end repository
-create repository GIT/memPIO
-end repository
 create repository GIT/meta-abs
-end repository
-create repository GIT/MIDIvice
 end repository
 create repository GIT/miXed
 end repository
@@ -221,8 +213,6 @@ end repository
 create repository GIT/mrpeach
 end repository
 create repository GIT/mtl
-end repository
-create repository GIT/multio
 end repository
 create repository GIT/new-from-template-plugin
 end repository
@@ -360,8 +350,6 @@ create repository GIT/tof
 end repository
 create repository GIT/trainingwheels-plugin
 end repository
-create repository GIT/uDMX
-end repository
 create repository GIT/unauthorized
 end repository
 create repository GIT/unicode
@@ -373,10 +361,6 @@ end repository
 create repository GIT/vbap
 end repository
 create repository GIT/vst
-end repository
-create repository GIT/w32mote
-end repository
-create repository GIT/wiimote
 end repository
 create repository GIT/wiiremote
 end repository
@@ -521,10 +505,6 @@ match /trunk/externals/dfx/
 end match
 match /trunk/externals/iem/dmx512/
   repository GIT/dmx512
-  branch master
-end match
-match /trunk/externals/hardware/DMXUSBPro/
-  repository GIT/DMXUSBPro
   branch master
 end match
 match /trunk/doc/
@@ -735,10 +715,6 @@ match /trunk/externals/input_noticer/
   repository GIT/input_noticer
   branch master
 end match
-match /trunk/externals/hardware/itrax2/
-  repository GIT/itrax2
-  branch master
-end match
 match /trunk/externals/tb/jack_transport/
   repository GIT/jack_transport
   branch master
@@ -787,10 +763,6 @@ match /trunk/abstractions/La-kitchen/
   repository GIT/la-kitchen
   branch master
 end match
-match /trunk/externals/hardware/lanbox/
-  repository GIT/lanbox
-  branch master
-end match
 match /trunk/externals/loaders/libdir/
   repository GIT/libdir
   branch master
@@ -823,16 +795,8 @@ match /trunk/externals/iem/mediasettings/
   repository GIT/mediasettings
   branch master
 end match
-match /trunk/externals/hardware/memPIO/
-  repository GIT/memPIO
-  branch master
-end match
 match /trunk/abstractions/meta-abs/
   repository GIT/meta-abs
-  branch master
-end match
-match /trunk/externals/hardware/MIDIvice/
-  repository GIT/MIDIvice
   branch master
 end match
 match /trunk/externals/miXed/
@@ -865,10 +829,6 @@ match /trunk/externals/mrpeach/
 end match
 match /trunk/abstractions/mtl/
   repository GIT/mtl
-  branch master
-end match
-match /trunk/externals/hardware/multio/
-  repository GIT/multio
   branch master
 end match
 match /trunk/scripts/guiplugins/new-from-template-plugin/
@@ -1179,8 +1139,8 @@ match /trunk/scripts/guiplugins/trainingwheels-plugin/
   repository GIT/trainingwheels-plugin
   branch master
 end match
-match /trunk/externals/hardware/uDMX/
-  repository GIT/uDMX
+match /trunk/externals/hardware/
+  repository GIT/hardware
   branch master
 end match
 match /trunk/externals/unauthorized/
@@ -1205,14 +1165,6 @@ match /trunk/externals/vbap/
 end match
 match /trunk/externals/vst/
   repository GIT/vst
-  branch master
-end match
-match /trunk/externals/hardware/w32mote/
-  repository GIT/w32mote
-  branch master
-end match
-match /trunk/externals/hardware/wiimote/
-  repository GIT/wiimote
   branch master
 end match
 match /trunk/externals/io/wiiremote/
