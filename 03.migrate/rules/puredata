@@ -186,8 +186,6 @@ create repository GIT/log
 end repository
 create repository GIT/many
 end repository
-create repository GIT/manypoly
-end repository
 create repository GIT/mapping
 end repository
 create repository GIT/markex
@@ -318,8 +316,6 @@ create repository GIT/snmp
 end repository
 create repository GIT/soundfile
 end repository
-create repository GIT/sprinkler
-end repository
 create repository GIT/srt
 end repository
 create repository GIT/supercollider
@@ -377,815 +373,825 @@ end repository
 
 match /trunk/scripts/guiplugins/64bit-warning-plugin/
   repository GIT/64bit-warning-plugin
-  branch master
+  branch scripts/guiplugins/64bit-warning-plugin
 end match
 match /trunk/externals/aalex/
   repository GIT/aalex
-  branch master
+  branch externals/aalex
 end match
 match /trunk/externals/iem/aconnect/
   repository GIT/aconnect
-  branch master
+  branch externals/iem/aconnect
 end match
 match /trunk/externals/aenv~/
   repository GIT/aenv~
-  branch master
+  min revision 0
+  max revision 6816
+  branch externals/aenv_
 end match
 match /trunk/externals/io/aka.wiiremote/
   repository GIT/aka.wiiremote
-  branch master
+  branch externals/io/aka.wiiremote
 end match
 match /trunk/externals/algocomp/
   repository GIT/algocomp
-  branch master
+  branch externals/algocomp
 end match
 match /trunk/externals/iem/amixer/
   repository GIT/amixer
-  branch master
+  branch externals/iem/amixer
 end match
 match /trunk/externals/ann/
   repository GIT/ann
-  branch master
+  branch externals/ann
 end match
 match /trunk/externals/apple/
   repository GIT/apple
-  branch master
+  branch externals/apple
 end match
 match /trunk/externals/arduino/
   repository GIT/arduino
-  branch master
+  branch externals/arduino
 end match
 match /trunk/externals/hardware/arduino/
   repository GIT/arduino
-  branch master
+  branch externals/hardware/arduino
 end match
 match /trunk/externals/arraysize/
   repository GIT/arraysize
-  branch master
+  branch externals/arraysize
 end match
 match /trunk/externals/bassemu~/
   repository GIT/bassemu~
-  branch master
+  branch externals/bassemu_
 end match
 match /trunk/externals/bassemu/
   repository GIT/bassemu~
-  branch master
+  branch externals/bassemu
 end match
 match /trunk/externals/bbogart/
   repository GIT/bbogart
-  branch master
+  branch externals/bbogart
 end match
 match /trunk/externals/beatpipe/
   repository GIT/beatpipe
-  branch master
+  branch externals/beatpipe
 end match
 match /trunk/guiplugins/bidi-plugin/
   repository GIT/bidi-plugin
-  branch master
+  branch guiplugins/bidi-plugin
 end match
 match /trunk/externals/boids/
   repository GIT/boids
-  branch master
+  branch externals/boids
 end match
 match /trunk/externals/bsaylor/
   repository GIT/bsaylor
-  branch master
+  branch externals/bsaylor
 end match
 match /trunk/scripts/guiplugins/buttonbar-plugin/
   repository GIT/buttonbar-plugin
-  branch master
+  branch scripts/guiplugins/buttonbar-plugin
 end match
 match /trunk/scripts/guiplugins/buttonbar/
   repository GIT/buttonbar-plugin
-  branch master
+  branch scripts/guiplugins/buttonbar
 end match
 match /trunk/scripts/guiplugins/buttonpopup-plugin/
   repository GIT/buttonpopup-plugin
-  branch master
+  branch scripts/guiplugins/buttonpopup-plugin
 end match
 match /trunk/scripts/guiplugins/category_menu-plugin/
   repository GIT/category_menu-plugin
-  branch master
+  branch scripts/guiplugins/category_menu-plugin
 end match
 match /trunk/externals/chaos/
   repository GIT/chaos
-  branch master
+  branch externals/chaos
 end match
 match /trunk/externals/tb/chaos/
   repository GIT/tb-chaos
-  branch master
+  branch externals/tb/chaos
 end match
 match /trunk/externals/clr/
   repository GIT/clr
-  branch master
+  branch externals/clr
 end match
 match /trunk/externals/iem/comport/
   repository GIT/comport
-  branch master
+  branch externals/iem/comport
 end match
 match /trunk/externals/corelibs/
   repository GIT/corelibs
-  branch master
+  min revision 0
+  max revision 12731
+  branch externals/corelibs
 end match
 match /trunk/externals/creb/
   repository GIT/creb
-  branch master
+  branch externals/creb
 end match
 match /trunk/externals/ddoukhan/cw_binaural~/
   repository GIT/cw_binaural~
-  branch master
+  branch externals/ddoukhan/cw_binaural_
 end match
 match /trunk/externals/cxc/
   repository GIT/cxc
-  branch master
+  branch externals/cxc
 end match
 match /trunk/externals/dfx/
   repository GIT/dfx
-  branch master
+  branch externals/dfx
 end match
 match /trunk/externals/iem/dmx512/
   repository GIT/dmx512
-  branch master
+  branch externals/iem/dmx512
 end match
 match /trunk/doc/
   repository GIT/doc
-  branch master
+  branch doc
 end match
 match /trunk/scripts/guiplugins/dropsuite-plugin/
   repository GIT/dropsuite-plugin
-  branch master
+  branch scripts/guiplugins/dropsuite-plugin
 end match
 match /trunk/abstractions/ds-gui/
   repository GIT/ds-gui
-  branch master
+  branch abstractions/ds-gui
 end match
 match /trunk/externals/earplug~/
   repository GIT/earplug~
-  branch master
+  branch externals/earplug_
 end match
 match /trunk/externals/ekext/
   repository GIT/ekext
-  branch master
+  branch externals/ekext
 end match
 match /trunk/externals/espeak/
   repository GIT/espeak
-  branch master
+  branch externals/espeak
 end match
 match /trunk/externals/ext13/
   repository GIT/ext13
-  branch master
+  branch externals/ext13
 end match
 match /trunk/externals/ezfile/
   repository GIT/ezfile
-  branch master
+  branch externals/ezfile
 end match
 match /trunk/externals/ffext/
   repository GIT/ffext
-  branch master
+  branch externals/ffext
 end match
 match /trunk/abstractions/fft_convolution/
   repository GIT/fft_convolution
-  branch master
+  branch abstractions/fft_convolution
 end match
 match /trunk/externals/fftease/
   repository GIT/fftease
-  branch master
+  min revision 0
+  max revision 16791
+  branch externals/fftease
 end match
 match /trunk/externals/ff/
   repository GIT/ff
-  branch master
+  branch externals/ff
 end match
 match /trunk/externals/fftw/
   repository GIT/fftw
-  branch master
+  branch externals/fftw
 end match
 match /trunk/scripts/guiplugins/file_associations/
   repository GIT/file_associations
-  branch master
+  branch scripts/guiplugins/file_associations
 end match
 match /trunk/externals/flatgui/
   repository GIT/flatgui
-  branch master
+  branch externals/flatgui
 end match
 match /trunk/abstractions/footils/
   repository GIT/footils
-  branch master
+  branch abstractions/footils
 end match
 match /trunk/externals/footils/
   repository GIT/footils
-  branch master
+  branch externals/footils
 end match
 match /trunk/Framestein/
   repository GIT/Framestein
-  branch master
+  min revision 0
+  max revision 9378
+  branch Framestein
 end match
 match /trunk/externals/framesync/
   repository GIT/framesync
-  branch master
+  branch externals/framesync
 end match
 match /trunk/externals/frankenstein/
   repository GIT/frankenstein
-  branch master
+  branch externals/frankenstein
 end match
 match /trunk/externals/freeverb~/
   repository GIT/freeverb~
-  branch master
+  branch externals/freeverb_
 end match
 match /trunk/externals/gem2pdp/
   repository GIT/gem2pdp
-  branch master
+  branch externals/gem2pdp
 end match
 match /trunk/externals/ggee/
   repository GIT/ggee
-  branch master
+  branch externals/ggee
 end match
 match /trunk/externals/grh/
   repository GIT/grh
-  branch master
+  branch externals/grh
 end match
 match /trunk/externals/gridflow/
   repository GIT/gridflow
-  branch master
+  min revision 0
+  max revision 16365
+  branch externals/gridflow
 end match
 match /trunk/extensions/gripd/
   repository GIT/gripd
-  branch master
+  branch extensions/gripd
 end match
 match /trunk/abstractions/audionerd/GYRE/
   repository GIT/GYRE
-  branch master
+  branch abstractions/audionerd/GYRE
 end match
 match /trunk/externals/hcs/
   repository GIT/hcs
-  branch master
+  branch externals/hcs
 end match
 match /trunk/externals/iem/hdspm_mixer/
   repository GIT/hdspm_mixer
-  branch master
+  branch externals/iem/hdspm_mixer
 end match
 match /trunk/externals/loaders/hexloader/
   repository GIT/hexloader
-  branch master
+  branch externals/loaders/hexloader
 end match
 match /trunk/externals/io/hidio/
   repository GIT/hidio
-  branch master
+  branch externals/io/hidio
 end match
 match /trunk/externals/hcs/hid/
   repository GIT/hid
-  branch master
+  branch externals/hcs/hid
 end match
 match /trunk/externals/hid/
   repository GIT/hid
-  branch master
+  branch externals/hid
 end match
 match /trunk/externals/iem16/
   repository GIT/iem16
-  branch master
+  branch externals/iem16
 end match
 match /trunk/externals/iem/iem_adaptfilt/
   repository GIT/iem_adaptfilt
-  branch master
+  branch externals/iem/iem_adaptfilt
 end match
 match /trunk/externals/iem/iem_ambi/
   repository GIT/iem_ambi
-  branch master
+  branch externals/iem/iem_ambi
 end match
 match /trunk/externals/iem/iem_bin_ambi/
   repository GIT/iem_bin_ambi
-  branch master
+  branch externals/iem/iem_bin_ambi
 end match
 match /trunk/externals/iem/iem_delay/
   repository GIT/iem_delay
-  branch master
+  branch externals/iem/iem_delay
 end match
 match /trunk/externals/iem/iem_dp/
   repository GIT/iem_dp
-  branch master
+  branch externals/iem/iem_dp
 end match
 match /trunk/externals/iem/iemgui/
   repository GIT/iemgui
-  branch master
+  branch externals/iem/iemgui
 end match
 match /trunk/externals/iem/iemguts/
   repository GIT/iemguts
-  branch master
+  branch externals/iem/iemguts
 end match
 match /trunk/externals/iemlib/
   repository GIT/iemlib
-  branch master
+  branch externals/iemlib
 end match
 match /trunk/externals/iem/iem_matrix/
   repository GIT/iem_matrix
-  branch master
+  branch externals/iem/iem_matrix
 end match
 match /trunk/externals/iem/iemmatrix/
   repository GIT/iemmatrix
-  branch master
+  branch externals/iem/iemmatrix
 end match
 match /trunk/externals/iem/iemnet/
   repository GIT/iemnet
-  branch master
+  branch externals/iem/iemnet
 end match
 match /trunk/externals/iem/iem_roomsim/
   repository GIT/iem_roomsim
-  branch master
+  branch externals/iem/iem_roomsim
 end match
 match /trunk/externals/iem/iem_spec2/
   repository GIT/iem_spec2
-  branch master
+  branch externals/iem/iem_spec2
 end match
 match /trunk/externals/iem/iemstream/
   repository GIT/iemstream
-  branch master
+  branch externals/iem/iemstream
 end match
 match /trunk/externals/iem/iem_tab/
   repository GIT/iem_tab
-  branch master
+  branch externals/iem/iem_tab
 end match
 match /trunk/externals/iem/iemxmlrpc/
   repository GIT/iemxmlrpc
-  branch master
+  branch externals/iem/iemxmlrpc
 end match
 match /trunk/externals/import/
   repository GIT/import
-  branch master
+  branch externals/import
 end match
 match /trunk/externals/input_noticer/
   repository GIT/input_noticer
-  branch master
+  branch externals/input_noticer
 end match
 match /trunk/externals/tb/jack_transport/
   repository GIT/jack_transport
-  branch master
+  branch externals/tb/jack_transport
 end match
 match /trunk/externals/jackx/
   repository GIT/jackx
-  branch master
+  branch externals/jackx
 end match
 match /trunk/externals/jasch_lib/
   repository GIT/jasch_lib
-  branch master
+  branch externals/jasch_lib
 end match
 match /trunk/abstractions/jmmmp/
   repository GIT/jmmmp
-  branch master
+  branch abstractions/jmmmp
 end match
 match /trunk/externals/k_cext/
   repository GIT/k_cext
-  branch master
+  branch externals/k_cext
 end match
 match /trunk/abstractions/keyboardkeys/
   repository GIT/keyboardkeys
-  branch master
+  branch abstractions/keyboardkeys
 end match
 match /trunk/externals/k_guile/
   repository GIT/k_guile
-  branch master
+  branch externals/k_guile
 end match
 match /trunk/guiplugins/kiosk-plugin/
   repository GIT/kiosk-plugin
-  branch master
+  branch guiplugins/kiosk-plugin
 end match
 match /trunk/scripts/guiplugins/kiosk-plugin/
   repository GIT/kiosk-plugin
-  branch master
+  branch scripts/guiplugins/kiosk-plugin
 end match
 match /trunk/externals/k_jack~/
   repository GIT/k_jack~
-  branch master
+  branch externals/k_jack_
 end match
 match /trunk/externals/k_vst~/
   repository GIT/k_vst~
-  branch master
+  branch externals/k_vst_
 end match
 match /trunk/abstractions/La-kitchen/
   repository GIT/la-kitchen
-  branch master
+  branch abstractions/La-kitchen
 end match
 match /trunk/externals/loaders/libdir/
   repository GIT/libdir
-  branch master
+  branch externals/loaders/libdir
 end match
 match /trunk/externals/log/
   repository GIT/log
-  branch master
+  branch externals/log
 end match
 match /trunk/externals/manypoly/
-  repository GIT/manypoly
-  branch master
+  repository GIT/many
+  branch externals/manypoly
 end match
 match /trunk/externals/many/
   repository GIT/many
-  branch master
+  branch externals/many
 end match
 match /trunk/externals/mapping/
   repository GIT/mapping
-  branch master
+  branch externals/mapping
 end match
 match /trunk/externals/markex/
   repository GIT/markex
-  branch master
+  branch externals/markex
 end match
 match /trunk/externals/maxlib/
   repository GIT/maxlib
-  branch master
+  branch externals/maxlib
 end match
 match /trunk/externals/iem/mediasettings/
   repository GIT/mediasettings
-  branch master
+  branch externals/iem/mediasettings
 end match
 match /trunk/abstractions/meta-abs/
   repository GIT/meta-abs
-  branch master
+  branch abstractions/meta-abs
 end match
 match /trunk/externals/miXed/
   repository GIT/miXed
-  branch master
+  branch externals/miXed
 end match
 match /trunk/externals/mjlib/
   repository GIT/mjlib
-  branch master
+  branch externals/mjlib
 end match
 match /trunk/externals/mmonoplayer/
   repository GIT/mmonoplayer
-  branch master
+  branch externals/mmonoplayer
 end match
 match /trunk/externals/moocow/pdstring/
   repository GIT/pdstring
-  branch master
+  branch externals/moocow/pdstring
 end match
 match /trunk/externals/moocow/
   repository GIT/moocow
-  branch master
+  branch externals/moocow
 end match
 match /trunk/externals/moonlib/
   repository GIT/moonlib
-  branch master
+  branch externals/moonlib
 end match
 match /trunk/externals/motex/
   repository GIT/motex
-  branch master
+  branch externals/motex
 end match
 match /trunk/externals/mrpeach/
   repository GIT/mrpeach
-  branch master
+  branch externals/mrpeach
 end match
 match /trunk/abstractions/mtl/
   repository GIT/mtl
-  branch master
+  branch abstractions/mtl
 end match
 match /trunk/scripts/guiplugins/new-from-template-plugin/
   repository GIT/new-from-template-plugin
-  branch master
+  branch scripts/guiplugins/new-from-template-plugin
 end match
 match /trunk/abstractions/nqpoly/
   repository GIT/nqpoly
-  branch master
+  branch abstractions/nqpoly
 end match
 match /trunk/abstractions/nusmuk/
   repository GIT/nusmuk
-  branch master
+  branch abstractions/nusmuk
 end match
 match /trunk/externals/nusmuk/
   repository GIT/nusmuk
-  branch master
+  branch externals/nusmuk
 end match
 match /trunk/scripts/guiplugins/object_db-plugin/
   repository GIT/object_db-plugin
-  branch master
+  branch scripts/guiplugins/object_db-plugin
 end match
 match /trunk/scripts/guiplugins/object_db/
   repository GIT/object_db-plugin
-  branch master
+  branch scripts/guiplugins/object_db
 end match
 match /trunk/externals/olafmatt/
   repository GIT/olafmatt
-  branch master
+  branch externals/olafmatt
 end match
 match /trunk/externals/oscbank~/
   repository GIT/oscbank~
-  branch master
+  branch externals/oscbank_
 end match
 match /trunk/externals/oscx/
   repository GIT/oscx
-  branch master
+  branch externals/oscx
 end match
 match /trunk/externals/OSCx/
   repository GIT/OSCx
-  branch master
+  branch externals/OSCx
 end match
 match /trunk/packages/
   repository GIT/packages
-  branch master
+  branch packages
 end match
 match /trunk/externals/hcs/pan/
   repository GIT/pan
-  branch master
+  branch externals/hcs/pan
 end match
 match /trunk/externals/pan/
   repository GIT/pan
-  branch master
+  branch externals/pan
 end match
 match /trunk/abstractions/parazit/
   repository GIT/parazit
-  branch master
+  branch abstractions/parazit
 end match
 match /trunk/abstractions/pddp/
   repository GIT/pddp
-  branch master
+  branch abstractions/pddp
 end match
 match /trunk/externals/pddp/
   repository GIT/pddp
-  branch master
+  branch externals/pddp
 end match
 match /trunk/externals/loaders/pdj/
   repository GIT/pdj
-  branch master
+  min revision 0
+  max revision 13599
+  branch externals/loaders/pdj
 end match
 match /trunk/externals/loaders/pdlua/
   repository GIT/pdlua
-  branch master
+  branch externals/loaders/pdlua
 end match
 match /trunk/externals/pdlua/
   repository GIT/pdlua
-  branch master
+  branch externals/pdlua
 end match
 match /trunk/abstractions/pdmtl/
   repository GIT/pdmtl
-  branch master
+  branch abstractions/pdmtl
 end match
 match /trunk/externals/iem/pdoctave/
   repository GIT/pdoctave
-  branch master
+  branch externals/iem/pdoctave
 end match
 match /trunk/externals/pdogg/
   repository GIT/pdogg
-  branch master
+  branch externals/pdogg
 end match
 match /trunk/externals/pdp_opencv/
   repository GIT/pdp_opencv
-  branch master
+  branch externals/pdp_opencv
 end match
 match /trunk/externals/pdp/
   repository GIT/pdp
-  branch master
+  branch externals/pdp
 end match
 match /trunk/externals/pduino/
   repository GIT/pduino
-  branch master
+  branch externals/pduino
 end match
 match /trunk/externals/pdvjtools/
   repository GIT/pdvjtools
-  branch master
+  branch externals/pdvjtools
 end match
 match /trunk/abstractions/pd-wavelet/
   repository GIT/pd-wavelet
-  branch master
+  branch abstractions/pd-wavelet
 end match
 match /trunk/externals/pidip/
   repository GIT/pidip
-  branch master
+  min revision 0
+  max revision 14581
+  branch externals/pidip
 end match
 match /trunk/abstractions/pixelTANGO/
   repository GIT/pixelTANGO
-  branch master
+  branch abstractions/pixelTANGO
 end match
 match /trunk/externals/pix_opencv/
   repository GIT/pix_opencv
-  branch master
+  branch externals/pix_opencv
 end match
 match /trunk/externals/plugin~/
   repository GIT/plugin~
-  branch master
+  branch externals/plugin_
 end match
 match /trunk/externals/pmpd/
   repository GIT/pmpd
-  branch master
+  branch externals/pmpd
 end match
 match /trunk/externals/control/popen/
   repository GIT/popen
-  branch master
+  branch externals/control/popen
 end match
 match /trunk/externals/postlude/
   repository GIT/postlude
-  branch master
+  branch externals/postlude
 end match
 match /trunk/abstractions/ptz-camera/
   repository GIT/ptz-camera
-  branch master
+  branch abstractions/ptz-camera
 end match
 match /trunk/abstractions/puremeasurement/
   repository GIT/puremeasurement
-  branch master
+  branch abstractions/puremeasurement
 end match
 match /trunk/abstractions/purepd/
   repository GIT/purepd
-  branch master
+  branch abstractions/purepd
 end match
 match /trunk/externals/hcs/purepd/
   repository GIT/purepd
-  branch master
+  branch externals/hcs/purepd
 end match
 match /trunk/abstractions/pureunity/
   repository GIT/pureunity
-  branch master
+  branch abstractions/pureunity
 end match
 match /trunk/externals/pureunity/
   repository GIT/pureunity
-  branch master
+  branch externals/pureunity
 end match
 match /trunk/scripts/guiplugins/quickbindings/
   repository GIT/quickbindings
-  branch master
+  branch scripts/guiplugins/quickbindings
 end match
 match /trunk/externals/august/readanysf~/
   repository GIT/readanysf~
-  branch master
+  branch externals/august/readanysf_
 end match
 match /trunk/externals/rhythm_estimator/
   repository GIT/rhythm_estimator
-  branch master
+  branch externals/rhythm_estimator
 end match
 match /trunk/abstractions/rradical/
   repository GIT/rradical
-  branch master
+  branch abstractions/rradical
 end match
 match /trunk/abstractions/s-abstractions/
   repository GIT/s-abstractions
-  branch master
+  branch abstractions/s-abstractions
 end match
 match /trunk/externals/tb/sc4pd/
   repository GIT/sc4pd
-  branch master
+  branch externals/tb/sc4pd
 end match
 match /trunk/scripts/
   repository GIT/scripts
-  branch master
+  branch scripts
 end match
 match /trunk/externals/reakin/sdiflists/
   repository GIT/sdiflists
-  branch master
+  branch externals/reakin/sdiflists
 end match
 match /trunk/scripts/guiplugins/search-plugin/
   repository GIT/search-plugin
-  branch master
+  branch scripts/guiplugins/search-plugin
 end match
 match /trunk/abstractions/senderfruit/
   repository GIT/sfruit
-  branch master
+  branch abstractions/senderfruit
 end match
 match /trunk/abstractions/sfruit/
   repository GIT/sfruit
-  branch master
+  branch abstractions/sfruit
 end match
 match /trunk/externals/share_mem/
   repository GIT/share_mem
-  branch master
+  branch externals/share_mem
 end match
 match /trunk/externals/sigpack/
   repository GIT/sigpack
-  branch master
+  branch externals/sigpack
 end match
 match /trunk/scripts/guiplugins/simple_examples/
   repository GIT/simple_examples
-  branch master
+  branch scripts/guiplugins/simple_examples
 end match
 match /trunk/externals/io/sixaxis/
   repository GIT/sixaxis
-  branch master
+  branch externals/io/sixaxis
 end match
 match /trunk/externals/smlib/
   repository GIT/smlib
-  branch master
+  branch externals/smlib
 end match
 match /trunk/externals/tb/sndfiler/
   repository GIT/sndfiler
-  branch master
+  branch externals/tb/sndfiler
 end match
 match /trunk/externals/iem/snmp/
   repository GIT/snmp
-  branch master
+  branch externals/iem/snmp
 end match
 match /trunk/externals/soundfile/
   repository GIT/soundfile
-  branch master
-end match
-match /trunk/externals/sprinkler/
-  repository GIT/sprinkler
-  branch master
+  branch externals/soundfile
 end match
 match /trunk/externals/srt/
   repository GIT/srt
-  branch master
+  branch externals/srt
 end match
 match /trunk/externals/supercollider/
   repository GIT/supercollider
-  branch master
+  branch externals/supercollider
 end match
 match /trunk/externals/susloop~/
   repository GIT/susloop~
-  branch master
+  branch externals/susloop_
 end match
 match /trunk/externals/svf~/
   repository GIT/svf~
-  branch master
+  branch externals/svf_
 end match
 match /trunk/externals/iem/syslog/
   repository GIT/syslog
-  branch master
+  branch externals/iem/syslog
 end match
 match /trunk/abstractions/tb/
   repository GIT/tb
-  branch master
+  branch abstractions/tb
 end match
 match /trunk/externals/tb/
   repository GIT/tb
-  branch master
+  branch externals/tb
 end match
 match /trunk/externals/tclfile/
   repository GIT/tclfile
-  branch master
+  branch externals/tclfile
 end match
 match /trunk/externals/loaders/tclpd/
   repository GIT/tclpd
-  branch master
+  branch externals/loaders/tclpd
 end match
 match /trunk/externals/tclpd/
   repository GIT/tclpd
-  branch master
+  branch externals/tclpd
 end match
 match /trunk/externals/template/
   repository GIT/template
-  branch master
+  branch externals/template
 end match
 match /trunk/externals/testtools/
   repository GIT/testtools
-  branch master
+  branch externals/testtools
 end match
 match /trunk/abstractions/timestretch/
   repository GIT/timestretch
-  branch master
+  branch abstractions/timestretch
 end match
 match /trunk/externals/tkwidgets/
   repository GIT/tkwidgets
-  branch master
+  branch externals/tkwidgets
 end match
 match /trunk/externals/tof/
   repository GIT/tof
-  branch master
+  branch externals/tof
 end match
 match /trunk/scripts/guiplugins/trainingwheels-plugin/
   repository GIT/trainingwheels-plugin
-  branch master
+  branch scripts/guiplugins/trainingwheels-plugin
 end match
 match /trunk/externals/hardware/
   repository GIT/hardware
-  branch master
+  branch externals/hardware
 end match
 match /trunk/externals/unauthorized/
   repository GIT/unauthorized
-  branch master
+  branch externals/unauthorized
 end match
 match /trunk/externals/iem/unicode/
   repository GIT/unicode
-  branch master
+  branch externals/iem/unicode
 end match
 match /trunk/externals/loaders/urloader/
   repository GIT/urloader
-  branch master
+  branch externals/loaders/urloader
 end match
 match /trunk/abstractions/vadsr~/
   repository GIT/vadsr~
-  branch master
+  branch abstractions/vadsr_
 end match
 match /trunk/externals/vbap/
   repository GIT/vbap
-  branch master
+  branch externals/vbap
 end match
 match /trunk/externals/vst/
   repository GIT/vst
-  branch master
+  branch externals/vst
 end match
 match /trunk/externals/io/wiiremote/
   repository GIT/wiiremote
-  branch master
+  branch externals/io/wiiremote
 end match
 match /trunk/externals/windowing/
   repository GIT/windowing
-  branch master
+  branch externals/windowing
 end match
 match /trunk/externals/io/xbee/
   repository GIT/xbee
-  branch master
+  branch externals/io/xbee
 end match
 match /trunk/externals/zexy/
   repository GIT/zexy
-  branch master
+  branch externals/zexy
 end match
 match /trunk/externals/zhzxh~/
   repository GIT/zhzxh~
-  branch master
+  branch externals/zhzxh_
 end match
 
 # catch-all rules
