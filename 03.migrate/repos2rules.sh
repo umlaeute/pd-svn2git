@@ -32,7 +32,9 @@ fi
 if [ "x${maxrev}" != "x" ]; then
   echo "  max revision ${maxrev}"
 fi
-echo "  branch master"
+branch="master"
+branch="$(echo ${path#/trunk/} | sed -e 's|~|_|g')"
+echo "  branch ${branch}"
 echo "end match"
 done
 
