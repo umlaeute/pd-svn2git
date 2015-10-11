@@ -13,11 +13,11 @@ fi
 create_repositories() {
 awk '{print $1}'  | sort -u | while read repo _
 do
-echo "create repository GIT/${repo}"
+echo "create repository GIT/${repo}.git"
 echo "end repository"
 done
 
-echo "create repository GIT/trunk"
+echo "create repository GIT/trunk.git"
 echo "end repository"
 }
 
@@ -25,7 +25,7 @@ create_matches() {
 while read repo path minrev maxrev
 do
 echo "match ${path}/"
-echo "  repository GIT/${repo}"
+echo "  repository GIT/${repo}.git"
 if [ "x${minrev}" != "x" ]; then
   echo "  min revision ${minrev}"
 fi
@@ -42,7 +42,7 @@ cat << EOF
 
 # catch-all rules
 match /trunk/
-  repository GIT/trunk
+  repository GIT/trunk.git
   branch master
 end match
 match /
