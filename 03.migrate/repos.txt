@@ -122,7 +122,7 @@ object_db-plugin /trunk/scripts/guiplugins/object_db
 olafmatt /trunk/externals/olafmatt
 oscbank~ /trunk/externals/oscbank~
 oscx /trunk/externals/oscx
-OSCx /trunk/externals/OSCx
+oscx /trunk/externals/OSCx
 packages /trunk/packages
 pan /trunk/externals/hcs/pan
 pan /trunk/externals/pan
