@@ -7,8 +7,8 @@ algocomp /trunk/externals/algocomp
 amixer /trunk/externals/iem/amixer
 ann /trunk/externals/ann
 apple /trunk/externals/apple
-arduino /trunk/externals/arduino
-arduino /trunk/externals/hardware/arduino
+pduino /trunk/externals/arduino
+pduino /trunk/externals/hardware/arduino
 arraysize /trunk/externals/arraysize
 bassemu~ /trunk/externals/bassemu~
 bassemu~ /trunk/externals/bassemu
