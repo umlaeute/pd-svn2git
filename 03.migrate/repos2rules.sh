@@ -41,10 +41,6 @@ done
 cat << EOF
 
 # catch-all rules
-match /trunk/
-  repository GIT/trunk.git
-  branch master
-end match
 match /
 end match
 EOF

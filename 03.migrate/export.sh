@@ -27,3 +27,7 @@ if [ ! -e "${AUTHORS}" ]; then
 fi
 
 svn-all-fast-export --stats --add-metadata --identity-map="${AUTHORS}" --rules="${RULES}" $@ "${SVNPATH}"
+for i in GIT/*.git
+do
+  ./makedefaultbranch.sh "${i}"
+done
