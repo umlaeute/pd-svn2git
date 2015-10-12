@@ -42,25 +42,32 @@ should all/most hardware go into a single library?
 
 
 ## broken
-- aenv~
-- corelibs
-- fftease
-- Framestein
-- gridflow
-- manypoly
-- pdj
+- aenv~ 6816
+  also in bsaylor
+- corelibs 12731
+- fftease 16791
++ Framestein 9378
+- gridflow 16365
++ manypoly
+- pdj 13599
+  (but pdj here is outdated: "removing pdj source since its not used in any builds, this is not the SVN repo for that code, and its out of date (0.8.5 is here, 0.8.7 is the most recent)"
 + pdstring
-- pidip
++ pidip 14581
 - pureunity
 - search-plugin
 + senderfruit
 - simple_examples
 - sprinkler
+  this is part of moocow
 - susloop~
+  also in bsaylor
 - svf~
+  also in bsaylor
 - trainingwheels-plugin
+  moved to github
 - wiiremote
 - zhzxh~
+  also in bsaylor
 
 ## unknown
 - fft_convolution: simple abstraction
