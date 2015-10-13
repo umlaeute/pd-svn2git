@@ -29,5 +29,5 @@ for uid in $(list_author_uids); do
   if [ "x${name}" = "x" ]; then
     name="N.N."
   fi
-  echo "${uid}: ${name} <${uid}@users.sourceforge.net>"
+  echo "${uid} ${name} <${uid}@users.sourceforge.net>"
 done 2>/dev/null
