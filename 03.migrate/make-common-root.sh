@@ -38,16 +38,22 @@ git commit --allow-empty -m "svn2git: manufactured root commit"
 git branch -r \
 | awk '{print $1}' \
 | egrep -v "^master$" \
+| egrep -v "/HEAD$" \
 | while read branch
 do
- git checkout ${branch#origin/}
- git rebase --root  --preserve-merges --onto master
+ realbranch=${branch#origin/}
+ echo "rebasing ${realbranch} onto master"
+ git checkout ${realbranch}
+ git rebase --root --preserve-merges --onto master
 done
 
 
 # push the changed repository back
-read dummy
-
+mv "${REPOSITORY}" "${REPOSITORY}.bak"
+git init --bare "${REPOSITORY}"
+git checkout master
+git push origin master
+git push --all
 
 ## cleanup
 rm -rf "${REPODIR}"
