@@ -24,7 +24,7 @@ buttonbar-plugin /trunk/scripts/guiplugins/buttonbar
 buttonpopup-plugin /trunk/scripts/guiplugins/buttonpopup-plugin
 category_menu-plugin /trunk/scripts/guiplugins/category_menu-plugin
 chaos /trunk/externals/chaos
-tb-chaos /trunk/externals/tb/chaos
+#tb-chaos /trunk/externals/tb/chaos
 clr /trunk/externals/clr
 comport /trunk/externals/iem/comport
 corelibs /trunk/externals/corelibs 0 12731
