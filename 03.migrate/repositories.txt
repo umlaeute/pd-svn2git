@@ -188,7 +188,7 @@ testtools /trunk/externals/testtools
 timestretch /trunk/abstractions/timestretch
 tkwidgets /trunk/externals/tkwidgets
 tof /trunk/externals/tof
-trainingwheels-plugin /trunk/scripts/guiplugins/trainingwheels-plugin
+trainingwheels-plugin /trunk/scripts/guiplugins/trainingwheels-plugin 0 14759
 hardware /trunk/externals/hardware
 hardware /trunk/externals/io
 unauthorized /trunk/externals/unauthorized
