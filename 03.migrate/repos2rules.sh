@@ -21,6 +21,11 @@ done
 create_matches() {
 while read repo path minrev maxrev
 do
+prefix=$(echo ${path} | sed -e 's|.*\*\([^*]*\)\*.*|/\1/|')
+if [ "x${prefix}" = "x${path}" ]; then
+ prefix=""
+fi
+path=$(echo $path | sed -e 's|\*||g')
 echo "match ${path}/"
 echo "  repository ${repo}.git"
 if [ "x${minrev}" != "x" ]; then
@@ -28,6 +33,9 @@ if [ "x${minrev}" != "x" ]; then
 fi
 if [ "x${maxrev}" != "x" ]; then
   echo "  max revision ${maxrev}"
+fi
+if [ "x${prefix}" != "x" ]; then
+  echo "  prefix ${prefix}"
 fi
 branch="master"
 if [ "x${path}" = "x/trunk" ]; then
