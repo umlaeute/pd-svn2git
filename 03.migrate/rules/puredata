@@ -1,1203 +1,1181 @@
-create repository GIT/64bit-warning-plugin.git
+create repository 64bit-warning-plugin.git
 end repository
-create repository GIT/aalex.git
+create repository aalex.git
 end repository
-create repository GIT/aconnect.git
+create repository aconnect.git
 end repository
-create repository GIT/aenv~.git
+create repository algocomp.git
 end repository
-create repository GIT/aka.wiiremote.git
+create repository amixer.git
 end repository
-create repository GIT/algocomp.git
+create repository ann.git
 end repository
-create repository GIT/amixer.git
+create repository apple.git
 end repository
-create repository GIT/ann.git
+create repository arraysize.git
 end repository
-create repository GIT/apple.git
+create repository bassemu~.git
 end repository
-create repository GIT/arduino.git
+create repository bbogart.git
 end repository
-create repository GIT/arraysize.git
+create repository beatpipe.git
 end repository
-create repository GIT/bassemu~.git
+create repository bidi-plugin.git
 end repository
-create repository GIT/bbogart.git
+create repository boids.git
 end repository
-create repository GIT/beatpipe.git
+create repository bsaylor.git
 end repository
-create repository GIT/bidi-plugin.git
+create repository buttonbar-plugin.git
 end repository
-create repository GIT/boids.git
+create repository buttonpopup-plugin.git
 end repository
-create repository GIT/bsaylor.git
+create repository category_menu-plugin.git
 end repository
-create repository GIT/buttonbar-plugin.git
+create repository chaos.git
 end repository
-create repository GIT/buttonpopup-plugin.git
+create repository clr.git
 end repository
-create repository GIT/category_menu-plugin.git
+create repository comport.git
 end repository
-create repository GIT/chaos.git
+create repository corelibs.git
 end repository
-create repository GIT/clr.git
+create repository creb.git
 end repository
-create repository GIT/comport.git
+create repository cw_binaural~.git
 end repository
-create repository GIT/corelibs.git
+create repository cxc.git
 end repository
-create repository GIT/creb.git
+create repository dfx.git
 end repository
-create repository GIT/cw_binaural~.git
+create repository doc.git
 end repository
-create repository GIT/cxc.git
+create repository dropsuite-plugin.git
 end repository
-create repository GIT/dfx.git
+create repository ds-gui.git
 end repository
-create repository GIT/dmx512.git
+create repository earplug~.git
 end repository
-create repository GIT/doc.git
+create repository ekext.git
 end repository
-create repository GIT/dropsuite-plugin.git
+create repository espeak.git
 end repository
-create repository GIT/ds-gui.git
+create repository ext13.git
 end repository
-create repository GIT/earplug~.git
+create repository ezfile.git
 end repository
-create repository GIT/ekext.git
+create repository ffext.git
 end repository
-create repository GIT/espeak.git
+create repository fft_convolution.git
 end repository
-create repository GIT/ext13.git
+create repository fftease.git
 end repository
-create repository GIT/ezfile.git
+create repository fftw.git
 end repository
-create repository GIT/ff.git
+create repository file_associations.git
 end repository
-create repository GIT/ffext.git
+create repository flatgui.git
 end repository
-create repository GIT/fft_convolution.git
+create repository footils.git
 end repository
-create repository GIT/fftease.git
+create repository Framestein.git
 end repository
-create repository GIT/fftw.git
+create repository framesync.git
 end repository
-create repository GIT/file_associations.git
+create repository frankenstein.git
 end repository
-create repository GIT/flatgui.git
+create repository freeverb~.git
 end repository
-create repository GIT/footils.git
+create repository gem2pdp.git
 end repository
-create repository GIT/Framestein.git
+create repository ggee.git
 end repository
-create repository GIT/framesync.git
+create repository grh.git
 end repository
-create repository GIT/frankenstein.git
+create repository gridflow.git
 end repository
-create repository GIT/freeverb~.git
+create repository gripd.git
 end repository
-create repository GIT/gem2pdp.git
+create repository GYRE.git
 end repository
-create repository GIT/ggee.git
+create repository hardware.git
 end repository
-create repository GIT/grh.git
+create repository hcs.git
 end repository
-create repository GIT/gridflow.git
+create repository hdspm_mixer.git
 end repository
-create repository GIT/gripd.git
+create repository hexloader.git
 end repository
-create repository GIT/GYRE.git
+create repository hid.git
 end repository
-create repository GIT/hardware.git
+create repository hidio.git
 end repository
-create repository GIT/hcs.git
+create repository iem16.git
 end repository
-create repository GIT/hdspm_mixer.git
+create repository iem_adaptfilt.git
 end repository
-create repository GIT/hexloader.git
+create repository iem_ambi.git
 end repository
-create repository GIT/hid.git
+create repository iem_bin_ambi.git
 end repository
-create repository GIT/hidio.git
+create repository iem_delay.git
 end repository
-create repository GIT/iem16.git
+create repository iem_dp.git
 end repository
-create repository GIT/iem_adaptfilt.git
+create repository iemgui.git
 end repository
-create repository GIT/iem_ambi.git
+create repository iemguts.git
 end repository
-create repository GIT/iem_bin_ambi.git
+create repository iemlib.git
 end repository
-create repository GIT/iem_delay.git
+create repository iemmatrix.git
 end repository
-create repository GIT/iem_dp.git
+create repository iem_matrix.git
 end repository
-create repository GIT/iemgui.git
+create repository iemnet.git
 end repository
-create repository GIT/iemguts.git
+create repository iem_roomsim.git
 end repository
-create repository GIT/iemlib.git
+create repository iem_spec2.git
 end repository
-create repository GIT/iemmatrix.git
+create repository iemstream.git
 end repository
-create repository GIT/iem_matrix.git
+create repository iem_tab.git
 end repository
-create repository GIT/iemnet.git
+create repository iemxmlrpc.git
 end repository
-create repository GIT/iem_roomsim.git
+create repository import.git
 end repository
-create repository GIT/iem_spec2.git
+create repository input_noticer.git
 end repository
-create repository GIT/iemstream.git
+create repository jack_transport.git
 end repository
-create repository GIT/iem_tab.git
+create repository jackx.git
 end repository
-create repository GIT/iemxmlrpc.git
+create repository jasch_lib.git
 end repository
-create repository GIT/import.git
+create repository jmmmp.git
 end repository
-create repository GIT/input_noticer.git
+create repository k_cext.git
 end repository
-create repository GIT/jack_transport.git
+create repository keyboardkeys.git
 end repository
-create repository GIT/jackx.git
+create repository k_guile.git
 end repository
-create repository GIT/jasch_lib.git
+create repository kiosk-plugin.git
 end repository
-create repository GIT/jmmmp.git
+create repository k_jack~.git
 end repository
-create repository GIT/k_cext.git
+create repository k_vst~.git
 end repository
-create repository GIT/keyboardkeys.git
+create repository la-kitchen.git
 end repository
-create repository GIT/k_guile.git
+create repository libdir.git
 end repository
-create repository GIT/kiosk-plugin.git
+create repository log.git
 end repository
-create repository GIT/k_jack~.git
+create repository many.git
 end repository
-create repository GIT/k_vst~.git
+create repository mapping.git
 end repository
-create repository GIT/la-kitchen.git
+create repository markex.git
 end repository
-create repository GIT/libdir.git
+create repository maxlib.git
 end repository
-create repository GIT/log.git
+create repository mediasettings.git
 end repository
-create repository GIT/many.git
+create repository meta-abs.git
 end repository
-create repository GIT/mapping.git
+create repository miXed.git
 end repository
-create repository GIT/markex.git
+create repository mjlib.git
 end repository
-create repository GIT/maxlib.git
+create repository mmonoplayer.git
 end repository
-create repository GIT/mediasettings.git
+create repository moocow.git
 end repository
-create repository GIT/meta-abs.git
+create repository moonlib.git
 end repository
-create repository GIT/miXed.git
+create repository motex.git
 end repository
-create repository GIT/mjlib.git
+create repository mrpeach.git
 end repository
-create repository GIT/mmonoplayer.git
+create repository mtl.git
 end repository
-create repository GIT/moocow.git
+create repository new-from-template-plugin.git
 end repository
-create repository GIT/moonlib.git
+create repository nqpoly.git
 end repository
-create repository GIT/motex.git
+create repository nusmuk.git
 end repository
-create repository GIT/mrpeach.git
+create repository object_db-plugin.git
 end repository
-create repository GIT/mtl.git
+create repository olafmatt.git
 end repository
-create repository GIT/new-from-template-plugin.git
+create repository oscbank~.git
 end repository
-create repository GIT/nqpoly.git
+create repository oscx.git
 end repository
-create repository GIT/nusmuk.git
+create repository packages.git
 end repository
-create repository GIT/object_db-plugin.git
+create repository pan.git
 end repository
-create repository GIT/olafmatt.git
+create repository parazit.git
 end repository
-create repository GIT/oscbank~.git
+create repository pddp.git
 end repository
-create repository GIT/oscx.git
+create repository pdj.git
 end repository
-create repository GIT/OSCx.git
+create repository pdlua.git
 end repository
-create repository GIT/packages.git
+create repository pdmtl.git
 end repository
-create repository GIT/pan.git
+create repository pdoctave.git
 end repository
-create repository GIT/parazit.git
+create repository pdogg.git
 end repository
-create repository GIT/pddp.git
+create repository pdp.git
 end repository
-create repository GIT/pdj.git
+create repository pdp_opencv.git
 end repository
-create repository GIT/pdlua.git
+create repository pdstring.git
 end repository
-create repository GIT/pdmtl.git
+create repository pduino.git
 end repository
-create repository GIT/pdoctave.git
+create repository pdvjtools.git
 end repository
-create repository GIT/pdogg.git
+create repository pd-wavelet.git
 end repository
-create repository GIT/pdp.git
+create repository pidip.git
 end repository
-create repository GIT/pdp_opencv.git
+create repository pixelTANGO.git
 end repository
-create repository GIT/pdstring.git
+create repository pix_opencv.git
 end repository
-create repository GIT/pduino.git
+create repository plugin~.git
 end repository
-create repository GIT/pdvjtools.git
+create repository pmpd.git
 end repository
-create repository GIT/pd-wavelet.git
+create repository popen.git
 end repository
-create repository GIT/pidip.git
+create repository postlude.git
 end repository
-create repository GIT/pixelTANGO.git
+create repository ptz-camera.git
 end repository
-create repository GIT/pix_opencv.git
+create repository puremeasurement.git
 end repository
-create repository GIT/plugin~.git
+create repository purepd.git
 end repository
-create repository GIT/pmpd.git
+create repository pureunity.git
 end repository
-create repository GIT/popen.git
+create repository quickbindings.git
 end repository
-create repository GIT/postlude.git
+create repository readanysf~.git
 end repository
-create repository GIT/ptz-camera.git
+create repository rhythm_estimator.git
 end repository
-create repository GIT/puremeasurement.git
+create repository rradical.git
 end repository
-create repository GIT/purepd.git
+create repository s-abstractions.git
 end repository
-create repository GIT/pureunity.git
+create repository sc4pd.git
 end repository
-create repository GIT/quickbindings.git
+create repository scripts.git
 end repository
-create repository GIT/readanysf~.git
+create repository sdiflists.git
 end repository
-create repository GIT/rhythm_estimator.git
+create repository search-plugin.git
 end repository
-create repository GIT/rradical.git
+create repository sfruit.git
 end repository
-create repository GIT/s-abstractions.git
+create repository share_mem.git
 end repository
-create repository GIT/sc4pd.git
+create repository sigpack.git
 end repository
-create repository GIT/scripts.git
+create repository simple_examples.git
 end repository
-create repository GIT/sdiflists.git
+create repository smlib.git
 end repository
-create repository GIT/search-plugin.git
+create repository sndfiler.git
 end repository
-create repository GIT/sfruit.git
+create repository snmp.git
 end repository
-create repository GIT/share_mem.git
+create repository soundfile.git
 end repository
-create repository GIT/sigpack.git
+create repository srt.git
 end repository
-create repository GIT/simple_examples.git
+create repository supercollider.git
 end repository
-create repository GIT/sixaxis.git
+create repository syslog.git
 end repository
-create repository GIT/smlib.git
+create repository tb.git
 end repository
-create repository GIT/sndfiler.git
+create repository tclfile.git
 end repository
-create repository GIT/snmp.git
+create repository tclpd.git
 end repository
-create repository GIT/soundfile.git
+create repository template.git
 end repository
-create repository GIT/srt.git
+create repository testtools.git
 end repository
-create repository GIT/supercollider.git
+create repository timestretch.git
 end repository
-create repository GIT/susloop~.git
+create repository tkwidgets.git
 end repository
-create repository GIT/svf~.git
+create repository tof.git
 end repository
-create repository GIT/syslog.git
+create repository trainingwheels-plugin.git
 end repository
-create repository GIT/tb.git
+create repository trunk.git
 end repository
-create repository GIT/tb-chaos.git
+create repository unauthorized.git
 end repository
-create repository GIT/tclfile.git
+create repository unicode.git
 end repository
-create repository GIT/tclpd.git
+create repository urloader.git
 end repository
-create repository GIT/template.git
+create repository vadsr~.git
 end repository
-create repository GIT/testtools.git
+create repository vbap.git
 end repository
-create repository GIT/timestretch.git
+create repository vst.git
 end repository
-create repository GIT/tkwidgets.git
+create repository wiimote.git
 end repository
-create repository GIT/tof.git
+create repository windowing.git
 end repository
-create repository GIT/trainingwheels-plugin.git
-end repository
-create repository GIT/unauthorized.git
-end repository
-create repository GIT/unicode.git
-end repository
-create repository GIT/urloader.git
-end repository
-create repository GIT/vadsr~.git
-end repository
-create repository GIT/vbap.git
-end repository
-create repository GIT/vst.git
-end repository
-create repository GIT/wiiremote.git
-end repository
-create repository GIT/windowing.git
-end repository
-create repository GIT/xbee.git
-end repository
-create repository GIT/zexy.git
-end repository
-create repository GIT/zhzxh~.git
-end repository
-create repository GIT/trunk.git
+create repository zexy.git
 end repository
 
 match /trunk/scripts/guiplugins/64bit-warning-plugin/
-  repository GIT/64bit-warning-plugin.git
+  repository 64bit-warning-plugin.git
   branch scripts/guiplugins/64bit-warning-plugin
 end match
 match /trunk/externals/aalex/
-  repository GIT/aalex.git
+  repository aalex.git
   branch externals/aalex
 end match
 match /trunk/externals/iem/aconnect/
-  repository GIT/aconnect.git
+  repository aconnect.git
   branch externals/iem/aconnect
 end match
 match /trunk/externals/aenv~/
-  repository GIT/aenv~.git
+  repository bsaylor.git
   min revision 0
   max revision 6816
+  prefix /aenv~/
   branch externals/aenv_
 end match
-match /trunk/externals/io/aka.wiiremote/
-  repository GIT/aka.wiiremote.git
-  branch externals/io/aka.wiiremote
-end match
 match /trunk/externals/algocomp/
-  repository GIT/algocomp.git
+  repository algocomp.git
   branch externals/algocomp
 end match
 match /trunk/externals/iem/amixer/
-  repository GIT/amixer.git
+  repository amixer.git
   branch externals/iem/amixer
 end match
 match /trunk/externals/ann/
-  repository GIT/ann.git
+  repository ann.git
   branch externals/ann
 end match
 match /trunk/externals/apple/
-  repository GIT/apple.git
+  repository apple.git
   branch externals/apple
 end match
 match /trunk/externals/arduino/
-  repository GIT/arduino.git
+  repository pduino.git
   branch externals/arduino
 end match
 match /trunk/externals/hardware/arduino/
-  repository GIT/arduino.git
+  repository pduino.git
   branch externals/hardware/arduino
 end match
+match /trunk/externals/pduino/
+  repository pduino.git
+  branch externals/pduino
+end match
+match /trunk/externals/hardware/wiimote/
+  repository wiimote.git
+  branch externals/hardware/wiimote
+end match
+match /branches/externals/hardware/wiimote-0.3/
+  repository wiimote.git
+  branch branches/externals/hardware/wiimote-0.3
+end match
 match /trunk/externals/arraysize/
-  repository GIT/arraysize.git
+  repository arraysize.git
   branch externals/arraysize
 end match
 match /trunk/externals/bassemu~/
-  repository GIT/bassemu~.git
+  repository bassemu~.git
   branch externals/bassemu_
 end match
 match /trunk/externals/bassemu/
-  repository GIT/bassemu~.git
+  repository bassemu~.git
   branch externals/bassemu
 end match
+match /trunk/externals/chaos/
+  repository chaos.git
+  branch externals/chaos
+end match
+match /trunk/externals/bbogart/chaos/
+  repository chaos.git
+  branch externals/bbogart/chaos
+end match
 match /trunk/externals/bbogart/
-  repository GIT/bbogart.git
+  repository bbogart.git
   branch externals/bbogart
 end match
 match /trunk/externals/beatpipe/
-  repository GIT/beatpipe.git
+  repository beatpipe.git
   branch externals/beatpipe
 end match
 match /trunk/guiplugins/bidi-plugin/
-  repository GIT/bidi-plugin.git
+  repository bidi-plugin.git
   branch guiplugins/bidi-plugin
 end match
 match /trunk/externals/boids/
-  repository GIT/boids.git
+  repository boids.git
   branch externals/boids
 end match
 match /trunk/externals/bsaylor/
-  repository GIT/bsaylor.git
+  repository bsaylor.git
   branch externals/bsaylor
 end match
 match /trunk/scripts/guiplugins/buttonbar-plugin/
-  repository GIT/buttonbar-plugin.git
+  repository buttonbar-plugin.git
   branch scripts/guiplugins/buttonbar-plugin
 end match
 match /trunk/scripts/guiplugins/buttonbar/
-  repository GIT/buttonbar-plugin.git
+  repository buttonbar-plugin.git
   branch scripts/guiplugins/buttonbar
 end match
 match /trunk/scripts/guiplugins/buttonpopup-plugin/
-  repository GIT/buttonpopup-plugin.git
+  repository buttonpopup-plugin.git
   branch scripts/guiplugins/buttonpopup-plugin
 end match
 match /trunk/scripts/guiplugins/category_menu-plugin/
-  repository GIT/category_menu-plugin.git
+  repository category_menu-plugin.git
   branch scripts/guiplugins/category_menu-plugin
 end match
-match /trunk/externals/chaos/
-  repository GIT/chaos.git
-  branch externals/chaos
-end match
-match /trunk/externals/tb/chaos/
-  repository GIT/tb-chaos.git
-  branch externals/tb/chaos
-end match
 match /trunk/externals/clr/
-  repository GIT/clr.git
+  repository clr.git
   branch externals/clr
 end match
 match /trunk/externals/iem/comport/
-  repository GIT/comport.git
+  repository comport.git
   branch externals/iem/comport
 end match
 match /trunk/externals/corelibs/
-  repository GIT/corelibs.git
+  repository corelibs.git
   min revision 0
   max revision 12731
   branch externals/corelibs
 end match
 match /trunk/externals/creb/
-  repository GIT/creb.git
+  repository creb.git
   branch externals/creb
 end match
 match /trunk/externals/ddoukhan/cw_binaural~/
-  repository GIT/cw_binaural~.git
+  repository cw_binaural~.git
   branch externals/ddoukhan/cw_binaural_
 end match
 match /trunk/externals/cxc/
-  repository GIT/cxc.git
+  repository cxc.git
   branch externals/cxc
 end match
 match /trunk/externals/dfx/
-  repository GIT/dfx.git
+  repository dfx.git
   branch externals/dfx
 end match
 match /trunk/externals/iem/dmx512/
-  repository GIT/dmx512.git
+  repository hardware.git
+  prefix /dmx512/
   branch externals/iem/dmx512
 end match
 match /trunk/doc/
-  repository GIT/doc.git
+  repository doc.git
   branch doc
 end match
 match /trunk/scripts/guiplugins/dropsuite-plugin/
-  repository GIT/dropsuite-plugin.git
+  repository dropsuite-plugin.git
   branch scripts/guiplugins/dropsuite-plugin
 end match
 match /trunk/abstractions/ds-gui/
-  repository GIT/ds-gui.git
+  repository ds-gui.git
   branch abstractions/ds-gui
 end match
 match /trunk/externals/earplug~/
-  repository GIT/earplug~.git
+  repository earplug~.git
   branch externals/earplug_
 end match
 match /trunk/externals/ekext/
-  repository GIT/ekext.git
+  repository ekext.git
   branch externals/ekext
 end match
 match /trunk/externals/espeak/
-  repository GIT/espeak.git
+  repository espeak.git
   branch externals/espeak
 end match
 match /trunk/externals/ext13/
-  repository GIT/ext13.git
+  repository ext13.git
   branch externals/ext13
 end match
 match /trunk/externals/ezfile/
-  repository GIT/ezfile.git
+  repository ezfile.git
   branch externals/ezfile
 end match
 match /trunk/externals/ffext/
-  repository GIT/ffext.git
+  repository ffext.git
   branch externals/ffext
 end match
 match /trunk/abstractions/fft_convolution/
-  repository GIT/fft_convolution.git
+  repository fft_convolution.git
   branch abstractions/fft_convolution
 end match
 match /trunk/externals/fftease/
-  repository GIT/fftease.git
+  repository fftease.git
   min revision 0
   max revision 16791
   branch externals/fftease
 end match
 match /trunk/externals/ff/
-  repository GIT/ff.git
+  repository hardware.git
+  prefix /ff/
   branch externals/ff
 end match
 match /trunk/externals/fftw/
-  repository GIT/fftw.git
+  repository fftw.git
   branch externals/fftw
 end match
 match /trunk/scripts/guiplugins/file_associations/
-  repository GIT/file_associations.git
+  repository file_associations.git
   branch scripts/guiplugins/file_associations
 end match
 match /trunk/externals/flatgui/
-  repository GIT/flatgui.git
+  repository flatgui.git
   branch externals/flatgui
 end match
 match /trunk/abstractions/footils/
-  repository GIT/footils.git
+  repository footils.git
   branch abstractions/footils
 end match
 match /trunk/externals/footils/
-  repository GIT/footils.git
+  repository footils.git
   branch externals/footils
 end match
 match /trunk/Framestein/
-  repository GIT/Framestein.git
+  repository Framestein.git
   min revision 0
   max revision 9378
   branch Framestein
 end match
 match /trunk/externals/framesync/
-  repository GIT/framesync.git
+  repository framesync.git
   branch externals/framesync
 end match
 match /trunk/externals/frankenstein/
-  repository GIT/frankenstein.git
+  repository frankenstein.git
   branch externals/frankenstein
 end match
 match /trunk/externals/freeverb~/
-  repository GIT/freeverb~.git
+  repository freeverb~.git
   branch externals/freeverb_
 end match
 match /trunk/externals/gem2pdp/
-  repository GIT/gem2pdp.git
+  repository gem2pdp.git
   branch externals/gem2pdp
 end match
 match /trunk/externals/ggee/
-  repository GIT/ggee.git
+  repository ggee.git
   branch externals/ggee
 end match
 match /trunk/externals/grh/
-  repository GIT/grh.git
+  repository grh.git
   branch externals/grh
 end match
 match /trunk/externals/gridflow/
-  repository GIT/gridflow.git
+  repository gridflow.git
   min revision 0
   max revision 16365
   branch externals/gridflow
 end match
 match /trunk/extensions/gripd/
-  repository GIT/gripd.git
+  repository gripd.git
   branch extensions/gripd
 end match
 match /trunk/abstractions/audionerd/GYRE/
-  repository GIT/GYRE.git
+  repository GYRE.git
   branch abstractions/audionerd/GYRE
 end match
 match /trunk/externals/hcs/
-  repository GIT/hcs.git
+  repository hcs.git
   branch externals/hcs
 end match
 match /trunk/externals/iem/hdspm_mixer/
-  repository GIT/hdspm_mixer.git
+  repository hdspm_mixer.git
   branch externals/iem/hdspm_mixer
 end match
 match /trunk/externals/loaders/hexloader/
-  repository GIT/hexloader.git
+  repository hexloader.git
   branch externals/loaders/hexloader
 end match
 match /trunk/externals/io/hidio/
-  repository GIT/hidio.git
+  repository hidio.git
   branch externals/io/hidio
 end match
 match /trunk/externals/hcs/hid/
-  repository GIT/hid.git
+  repository hid.git
   branch externals/hcs/hid
 end match
 match /trunk/externals/hid/
-  repository GIT/hid.git
+  repository hid.git
   branch externals/hid
 end match
 match /trunk/externals/iem16/
-  repository GIT/iem16.git
+  repository iem16.git
   branch externals/iem16
 end match
 match /trunk/externals/iem/iem_adaptfilt/
-  repository GIT/iem_adaptfilt.git
+  repository iem_adaptfilt.git
   branch externals/iem/iem_adaptfilt
 end match
 match /trunk/externals/iem/iem_ambi/
-  repository GIT/iem_ambi.git
+  repository iem_ambi.git
   branch externals/iem/iem_ambi
 end match
 match /trunk/externals/iem/iem_bin_ambi/
-  repository GIT/iem_bin_ambi.git
+  repository iem_bin_ambi.git
   branch externals/iem/iem_bin_ambi
 end match
 match /trunk/externals/iem/iem_delay/
-  repository GIT/iem_delay.git
+  repository iem_delay.git
   branch externals/iem/iem_delay
 end match
 match /trunk/externals/iem/iem_dp/
-  repository GIT/iem_dp.git
+  repository iem_dp.git
   branch externals/iem/iem_dp
 end match
 match /trunk/externals/iem/iemgui/
-  repository GIT/iemgui.git
+  repository iemgui.git
   branch externals/iem/iemgui
 end match
 match /trunk/externals/iem/iemguts/
-  repository GIT/iemguts.git
+  repository iemguts.git
   branch externals/iem/iemguts
 end match
 match /trunk/externals/iemlib/
-  repository GIT/iemlib.git
+  repository iemlib.git
   branch externals/iemlib
 end match
 match /trunk/externals/iem/iem_matrix/
-  repository GIT/iem_matrix.git
+  repository iem_matrix.git
   branch externals/iem/iem_matrix
 end match
 match /trunk/externals/iem/iemmatrix/
-  repository GIT/iemmatrix.git
+  repository iemmatrix.git
   branch externals/iem/iemmatrix
 end match
 match /trunk/externals/iem/iemnet/
-  repository GIT/iemnet.git
+  repository iemnet.git
   branch externals/iem/iemnet
 end match
 match /trunk/externals/iem/iem_roomsim/
-  repository GIT/iem_roomsim.git
+  repository iem_roomsim.git
   branch externals/iem/iem_roomsim
 end match
 match /trunk/externals/iem/iem_spec2/
-  repository GIT/iem_spec2.git
+  repository iem_spec2.git
   branch externals/iem/iem_spec2
 end match
 match /trunk/externals/iem/iemstream/
-  repository GIT/iemstream.git
+  repository iemstream.git
   branch externals/iem/iemstream
 end match
 match /trunk/externals/iem/iem_tab/
-  repository GIT/iem_tab.git
+  repository iem_tab.git
   branch externals/iem/iem_tab
 end match
 match /trunk/externals/iem/iemxmlrpc/
-  repository GIT/iemxmlrpc.git
+  repository iemxmlrpc.git
   branch externals/iem/iemxmlrpc
 end match
 match /trunk/externals/import/
-  repository GIT/import.git
+  repository import.git
   branch externals/import
 end match
 match /trunk/externals/input_noticer/
-  repository GIT/input_noticer.git
+  repository input_noticer.git
   branch externals/input_noticer
 end match
 match /trunk/externals/tb/jack_transport/
-  repository GIT/jack_transport.git
+  repository jack_transport.git
   branch externals/tb/jack_transport
 end match
 match /trunk/externals/jackx/
-  repository GIT/jackx.git
+  repository jackx.git
   branch externals/jackx
 end match
 match /trunk/externals/jasch_lib/
-  repository GIT/jasch_lib.git
+  repository jasch_lib.git
   branch externals/jasch_lib
 end match
 match /trunk/abstractions/jmmmp/
-  repository GIT/jmmmp.git
+  repository jmmmp.git
   branch abstractions/jmmmp
 end match
 match /trunk/externals/k_cext/
-  repository GIT/k_cext.git
+  repository k_cext.git
   branch externals/k_cext
 end match
 match /trunk/abstractions/keyboardkeys/
-  repository GIT/keyboardkeys.git
+  repository keyboardkeys.git
   branch abstractions/keyboardkeys
 end match
 match /trunk/externals/k_guile/
-  repository GIT/k_guile.git
+  repository k_guile.git
   branch externals/k_guile
 end match
 match /trunk/guiplugins/kiosk-plugin/
-  repository GIT/kiosk-plugin.git
+  repository kiosk-plugin.git
   branch guiplugins/kiosk-plugin
 end match
 match /trunk/scripts/guiplugins/kiosk-plugin/
-  repository GIT/kiosk-plugin.git
+  repository kiosk-plugin.git
   branch scripts/guiplugins/kiosk-plugin
 end match
 match /trunk/externals/k_jack~/
-  repository GIT/k_jack~.git
+  repository k_jack~.git
   branch externals/k_jack_
 end match
 match /trunk/externals/k_vst~/
-  repository GIT/k_vst~.git
+  repository k_vst~.git
   branch externals/k_vst_
 end match
 match /trunk/abstractions/La-kitchen/
-  repository GIT/la-kitchen.git
+  repository la-kitchen.git
   branch abstractions/La-kitchen
 end match
 match /trunk/externals/loaders/libdir/
-  repository GIT/libdir.git
+  repository libdir.git
   branch externals/loaders/libdir
 end match
 match /trunk/externals/log/
-  repository GIT/log.git
+  repository log.git
   branch externals/log
 end match
 match /trunk/externals/manypoly/
-  repository GIT/many.git
+  repository many.git
   branch externals/manypoly
 end match
 match /trunk/externals/many/
-  repository GIT/many.git
+  repository many.git
   branch externals/many
 end match
 match /trunk/externals/mapping/
-  repository GIT/mapping.git
+  repository mapping.git
   branch externals/mapping
 end match
 match /trunk/externals/markex/
-  repository GIT/markex.git
+  repository markex.git
   branch externals/markex
 end match
 match /trunk/externals/maxlib/
-  repository GIT/maxlib.git
+  repository maxlib.git
   branch externals/maxlib
 end match
 match /trunk/externals/iem/mediasettings/
-  repository GIT/mediasettings.git
+  repository mediasettings.git
   branch externals/iem/mediasettings
 end match
 match /trunk/abstractions/meta-abs/
-  repository GIT/meta-abs.git
+  repository meta-abs.git
   branch abstractions/meta-abs
 end match
 match /trunk/externals/miXed/
-  repository GIT/miXed.git
+  repository miXed.git
   branch externals/miXed
 end match
 match /trunk/externals/mjlib/
-  repository GIT/mjlib.git
+  repository mjlib.git
   branch externals/mjlib
 end match
 match /trunk/externals/mmonoplayer/
-  repository GIT/mmonoplayer.git
+  repository mmonoplayer.git
   branch externals/mmonoplayer
 end match
 match /trunk/externals/moocow/pdstring/
-  repository GIT/pdstring.git
+  repository pdstring.git
   branch externals/moocow/pdstring
 end match
 match /trunk/externals/moocow/
-  repository GIT/moocow.git
+  repository moocow.git
   branch externals/moocow
 end match
 match /trunk/externals/moonlib/
-  repository GIT/moonlib.git
+  repository moonlib.git
   branch externals/moonlib
 end match
 match /trunk/externals/motex/
-  repository GIT/motex.git
+  repository motex.git
   branch externals/motex
 end match
 match /trunk/externals/mrpeach/
-  repository GIT/mrpeach.git
+  repository mrpeach.git
   branch externals/mrpeach
 end match
 match /trunk/abstractions/mtl/
-  repository GIT/mtl.git
+  repository mtl.git
   branch abstractions/mtl
 end match
 match /trunk/scripts/guiplugins/new-from-template-plugin/
-  repository GIT/new-from-template-plugin.git
+  repository new-from-template-plugin.git
   branch scripts/guiplugins/new-from-template-plugin
 end match
 match /trunk/abstractions/nqpoly/
-  repository GIT/nqpoly.git
+  repository nqpoly.git
   branch abstractions/nqpoly
 end match
 match /trunk/abstractions/nusmuk/
-  repository GIT/nusmuk.git
+  repository nusmuk.git
   branch abstractions/nusmuk
 end match
 match /trunk/externals/nusmuk/
-  repository GIT/nusmuk.git
+  repository nusmuk.git
   branch externals/nusmuk
 end match
 match /trunk/scripts/guiplugins/object_db-plugin/
-  repository GIT/object_db-plugin.git
+  repository object_db-plugin.git
   branch scripts/guiplugins/object_db-plugin
 end match
 match /trunk/scripts/guiplugins/object_db/
-  repository GIT/object_db-plugin.git
+  repository object_db-plugin.git
   branch scripts/guiplugins/object_db
 end match
 match /trunk/externals/olafmatt/
-  repository GIT/olafmatt.git
+  repository olafmatt.git
   branch externals/olafmatt
 end match
 match /trunk/externals/oscbank~/
-  repository GIT/oscbank~.git
+  repository oscbank~.git
   branch externals/oscbank_
 end match
 match /trunk/externals/oscx/
-  repository GIT/oscx.git
+  repository oscx.git
   branch externals/oscx
 end match
 match /trunk/externals/OSCx/
-  repository GIT/OSCx.git
+  repository oscx.git
   branch externals/OSCx
 end match
 match /trunk/packages/
-  repository GIT/packages.git
+  repository packages.git
   branch packages
 end match
 match /trunk/externals/hcs/pan/
-  repository GIT/pan.git
+  repository pan.git
   branch externals/hcs/pan
 end match
 match /trunk/externals/pan/
-  repository GIT/pan.git
+  repository pan.git
   branch externals/pan
 end match
 match /trunk/abstractions/parazit/
-  repository GIT/parazit.git
+  repository parazit.git
   branch abstractions/parazit
 end match
 match /trunk/abstractions/pddp/
-  repository GIT/pddp.git
+  repository pddp.git
   branch abstractions/pddp
 end match
 match /trunk/externals/pddp/
-  repository GIT/pddp.git
+  repository pddp.git
   branch externals/pddp
 end match
 match /trunk/externals/loaders/pdj/
-  repository GIT/pdj.git
+  repository pdj.git
   min revision 0
   max revision 13599
   branch externals/loaders/pdj
 end match
 match /trunk/externals/loaders/pdlua/
-  repository GIT/pdlua.git
+  repository pdlua.git
   branch externals/loaders/pdlua
 end match
 match /trunk/externals/pdlua/
-  repository GIT/pdlua.git
+  repository pdlua.git
   branch externals/pdlua
 end match
 match /trunk/abstractions/pdmtl/
-  repository GIT/pdmtl.git
+  repository pdmtl.git
   branch abstractions/pdmtl
 end match
 match /trunk/externals/iem/pdoctave/
-  repository GIT/pdoctave.git
+  repository pdoctave.git
   branch externals/iem/pdoctave
 end match
 match /trunk/externals/pdogg/
-  repository GIT/pdogg.git
+  repository pdogg.git
   branch externals/pdogg
 end match
 match /trunk/externals/pdp_opencv/
-  repository GIT/pdp_opencv.git
+  repository pdp_opencv.git
   branch externals/pdp_opencv
 end match
 match /trunk/externals/pdp/
-  repository GIT/pdp.git
+  repository pdp.git
   branch externals/pdp
 end match
-match /trunk/externals/pduino/
-  repository GIT/pduino.git
-  branch externals/pduino
-end match
 match /trunk/externals/pdvjtools/
-  repository GIT/pdvjtools.git
+  repository pdvjtools.git
   branch externals/pdvjtools
 end match
 match /trunk/abstractions/pd-wavelet/
-  repository GIT/pd-wavelet.git
+  repository pd-wavelet.git
   branch abstractions/pd-wavelet
 end match
 match /trunk/externals/pidip/
-  repository GIT/pidip.git
+  repository pidip.git
   min revision 0
   max revision 14581
   branch externals/pidip
 end match
 match /trunk/abstractions/pixelTANGO/
-  repository GIT/pixelTANGO.git
+  repository pixelTANGO.git
   branch abstractions/pixelTANGO
 end match
 match /trunk/externals/pix_opencv/
-  repository GIT/pix_opencv.git
+  repository pix_opencv.git
   branch externals/pix_opencv
 end match
 match /trunk/externals/plugin~/
-  repository GIT/plugin~.git
+  repository plugin~.git
   branch externals/plugin_
 end match
 match /trunk/externals/pmpd/
-  repository GIT/pmpd.git
+  repository pmpd.git
   branch externals/pmpd
 end match
 match /trunk/externals/control/popen/
-  repository GIT/popen.git
+  repository popen.git
   branch externals/control/popen
 end match
 match /trunk/externals/postlude/
-  repository GIT/postlude.git
+  repository postlude.git
   branch externals/postlude
 end match
 match /trunk/abstractions/ptz-camera/
-  repository GIT/ptz-camera.git
+  repository ptz-camera.git
   branch abstractions/ptz-camera
 end match
 match /trunk/abstractions/puremeasurement/
-  repository GIT/puremeasurement.git
+  repository puremeasurement.git
   branch abstractions/puremeasurement
 end match
 match /trunk/abstractions/purepd/
-  repository GIT/purepd.git
+  repository purepd.git
   branch abstractions/purepd
 end match
 match /trunk/externals/hcs/purepd/
-  repository GIT/purepd.git
+  repository purepd.git
   branch externals/hcs/purepd
 end match
 match /trunk/abstractions/pureunity/
-  repository GIT/pureunity.git
+  repository pureunity.git
   branch abstractions/pureunity
 end match
 match /trunk/externals/pureunity/
-  repository GIT/pureunity.git
+  repository pureunity.git
   branch externals/pureunity
 end match
 match /trunk/scripts/guiplugins/quickbindings/
-  repository GIT/quickbindings.git
+  repository quickbindings.git
   branch scripts/guiplugins/quickbindings
 end match
 match /trunk/externals/august/readanysf~/
-  repository GIT/readanysf~.git
+  repository readanysf~.git
   branch externals/august/readanysf_
 end match
 match /trunk/externals/rhythm_estimator/
-  repository GIT/rhythm_estimator.git
+  repository rhythm_estimator.git
   branch externals/rhythm_estimator
 end match
 match /trunk/abstractions/rradical/
-  repository GIT/rradical.git
+  repository rradical.git
   branch abstractions/rradical
 end match
 match /trunk/abstractions/s-abstractions/
-  repository GIT/s-abstractions.git
+  repository s-abstractions.git
   branch abstractions/s-abstractions
 end match
 match /trunk/externals/tb/sc4pd/
-  repository GIT/sc4pd.git
+  repository sc4pd.git
   branch externals/tb/sc4pd
 end match
 match /trunk/scripts/
-  repository GIT/scripts.git
+  repository scripts.git
   branch scripts
 end match
 match /trunk/externals/reakin/sdiflists/
-  repository GIT/sdiflists.git
+  repository sdiflists.git
   branch externals/reakin/sdiflists
 end match
 match /trunk/scripts/guiplugins/search-plugin/
-  repository GIT/search-plugin.git
+  repository search-plugin.git
   branch scripts/guiplugins/search-plugin
 end match
 match /trunk/abstractions/senderfruit/
-  repository GIT/sfruit.git
+  repository sfruit.git
   branch abstractions/senderfruit
 end match
 match /trunk/abstractions/sfruit/
-  repository GIT/sfruit.git
+  repository sfruit.git
   branch abstractions/sfruit
 end match
 match /trunk/externals/share_mem/
-  repository GIT/share_mem.git
+  repository share_mem.git
   branch externals/share_mem
 end match
 match /trunk/externals/sigpack/
-  repository GIT/sigpack.git
+  repository sigpack.git
   branch externals/sigpack
 end match
 match /trunk/scripts/guiplugins/simple_examples/
-  repository GIT/simple_examples.git
+  repository simple_examples.git
   branch scripts/guiplugins/simple_examples
 end match
-match /trunk/externals/io/sixaxis/
-  repository GIT/sixaxis.git
-  branch externals/io/sixaxis
-end match
 match /trunk/externals/smlib/
-  repository GIT/smlib.git
+  repository smlib.git
   branch externals/smlib
 end match
 match /trunk/externals/tb/sndfiler/
-  repository GIT/sndfiler.git
+  repository sndfiler.git
   branch externals/tb/sndfiler
 end match
 match /trunk/externals/iem/snmp/
-  repository GIT/snmp.git
+  repository snmp.git
   branch externals/iem/snmp
 end match
 match /trunk/externals/soundfile/
-  repository GIT/soundfile.git
+  repository soundfile.git
   branch externals/soundfile
 end match
 match /trunk/externals/srt/
-  repository GIT/srt.git
+  repository srt.git
   branch externals/srt
 end match
 match /trunk/externals/supercollider/
-  repository GIT/supercollider.git
+  repository supercollider.git
   branch externals/supercollider
 end match
 match /trunk/externals/susloop~/
-  repository GIT/susloop~.git
+  repository bsaylor.git
+  prefix /susloop~/
   branch externals/susloop_
 end match
 match /trunk/externals/svf~/
-  repository GIT/svf~.git
+  repository bsaylor.git
+  prefix /svf~/
   branch externals/svf_
 end match
 match /trunk/externals/iem/syslog/
-  repository GIT/syslog.git
+  repository syslog.git
   branch externals/iem/syslog
 end match
 match /trunk/abstractions/tb/
-  repository GIT/tb.git
+  repository tb.git
   branch abstractions/tb
 end match
 match /trunk/externals/tb/
-  repository GIT/tb.git
+  repository tb.git
   branch externals/tb
 end match
 match /trunk/externals/tclfile/
-  repository GIT/tclfile.git
+  repository tclfile.git
   branch externals/tclfile
 end match
 match /trunk/externals/loaders/tclpd/
-  repository GIT/tclpd.git
+  repository tclpd.git
   branch externals/loaders/tclpd
 end match
 match /trunk/externals/tclpd/
-  repository GIT/tclpd.git
+  repository tclpd.git
   branch externals/tclpd
 end match
 match /trunk/externals/template/
-  repository GIT/template.git
+  repository template.git
   branch externals/template
 end match
 match /trunk/externals/testtools/
-  repository GIT/testtools.git
+  repository testtools.git
   branch externals/testtools
 end match
 match /trunk/abstractions/timestretch/
-  repository GIT/timestretch.git
+  repository timestretch.git
   branch abstractions/timestretch
 end match
 match /trunk/externals/tkwidgets/
-  repository GIT/tkwidgets.git
+  repository tkwidgets.git
   branch externals/tkwidgets
 end match
 match /trunk/externals/tof/
-  repository GIT/tof.git
+  repository tof.git
   branch externals/tof
 end match
 match /trunk/scripts/guiplugins/trainingwheels-plugin/
-  repository GIT/trainingwheels-plugin.git
+  repository trainingwheels-plugin.git
   branch scripts/guiplugins/trainingwheels-plugin
 end match
 match /trunk/externals/hardware/
-  repository GIT/hardware.git
+  repository hardware.git
   branch externals/hardware
 end match
+match /trunk/externals/io/
+  repository hardware.git
+  branch externals/io
+end match
 match /trunk/externals/unauthorized/
-  repository GIT/unauthorized.git
+  repository unauthorized.git
   branch externals/unauthorized
 end match
 match /trunk/externals/iem/unicode/
-  repository GIT/unicode.git
+  repository unicode.git
   branch externals/iem/unicode
 end match
 match /trunk/externals/loaders/urloader/
-  repository GIT/urloader.git
+  repository urloader.git
   branch externals/loaders/urloader
 end match
 match /trunk/abstractions/vadsr~/
-  repository GIT/vadsr~.git
+  repository vadsr~.git
   branch abstractions/vadsr_
 end match
 match /trunk/externals/vbap/
-  repository GIT/vbap.git
+  repository vbap.git
   branch externals/vbap
 end match
 match /trunk/externals/vst/
-  repository GIT/vst.git
+  repository vst.git
   branch externals/vst
 end match
-match /trunk/externals/io/wiiremote/
-  repository GIT/wiiremote.git
-  branch externals/io/wiiremote
-end match
 match /trunk/externals/windowing/
-  repository GIT/windowing.git
+  repository windowing.git
   branch externals/windowing
 end match
-match /trunk/externals/io/xbee/
-  repository GIT/xbee.git
-  branch externals/io/xbee
-end match
 match /trunk/externals/zexy/
-  repository GIT/zexy.git
+  repository zexy.git
   branch externals/zexy
 end match
 match /trunk/externals/zhzxh~/
-  repository GIT/zhzxh~.git
+  repository bsaylor.git
+  prefix /zhzxh~/
   branch externals/zhzxh_
+end match
+match /trunk/
+  repository trunk.git
+  branch master
 end match
 
 # catch-all rules
-match /trunk/
-  repository GIT/trunk.git
-  branch master
-end match
 match /
 end match
