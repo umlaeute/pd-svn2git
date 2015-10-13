@@ -14,6 +14,8 @@ wiimote /branches/externals/hardware/wiimote-0.3
 arraysize /trunk/externals/arraysize
 bassemu~ /trunk/externals/bassemu~
 bassemu~ /trunk/externals/bassemu
+chaos /trunk/externals/chaos
+chaos /trunk/externals/bbogart/chaos
 bbogart /trunk/externals/bbogart
 beatpipe /trunk/externals/beatpipe
 bidi-plugin /trunk/guiplugins/bidi-plugin
@@ -23,7 +25,6 @@ buttonbar-plugin /trunk/scripts/guiplugins/buttonbar-plugin
 buttonbar-plugin /trunk/scripts/guiplugins/buttonbar
 buttonpopup-plugin /trunk/scripts/guiplugins/buttonpopup-plugin
 category_menu-plugin /trunk/scripts/guiplugins/category_menu-plugin
-chaos /trunk/externals/chaos
 #tb-chaos /trunk/externals/tb/chaos
 clr /trunk/externals/clr
 comport /trunk/externals/iem/comport
