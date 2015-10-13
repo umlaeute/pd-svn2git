@@ -2,13 +2,15 @@
 aalex /trunk/externals/aalex
 aconnect /trunk/externals/iem/aconnect
 aenv~ /trunk/externals/aenv~ 0 6816
-aka.wiiremote /trunk/externals/io/aka.wiiremote
 algocomp /trunk/externals/algocomp
 amixer /trunk/externals/iem/amixer
 ann /trunk/externals/ann
 apple /trunk/externals/apple
 pduino /trunk/externals/arduino
 pduino /trunk/externals/hardware/arduino
+pduino /trunk/externals/pduino
+wiimote /trunk/externals/hardware/wiimote
+wiimote /branches/externals/hardware/wiimote-0.3
 arraysize /trunk/externals/arraysize
 bassemu~ /trunk/externals/bassemu~
 bassemu~ /trunk/externals/bassemu
@@ -30,7 +32,7 @@ creb /trunk/externals/creb
 cw_binaural~ /trunk/externals/ddoukhan/cw_binaural~
 cxc /trunk/externals/cxc
 dfx /trunk/externals/dfx
-dmx512 /trunk/externals/iem/dmx512
+hardware /trunk/externals/iem/*dmx512*
 doc /trunk/doc
 dropsuite-plugin /trunk/scripts/guiplugins/dropsuite-plugin
 ds-gui /trunk/abstractions/ds-gui
@@ -42,7 +44,7 @@ ezfile /trunk/externals/ezfile
 ffext /trunk/externals/ffext
 fft_convolution /trunk/abstractions/fft_convolution
 fftease /trunk/externals/fftease 0 16791
-ff /trunk/externals/ff
+hardware /trunk/externals/*ff*
 fftw /trunk/externals/fftw
 file_associations /trunk/scripts/guiplugins/file_associations
 flatgui /trunk/externals/flatgui
@@ -137,7 +139,6 @@ pdoctave /trunk/externals/iem/pdoctave
 pdogg /trunk/externals/pdogg
 pdp_opencv /trunk/externals/pdp_opencv
 pdp /trunk/externals/pdp
-pduino /trunk/externals/pduino
 pdvjtools /trunk/externals/pdvjtools
 pd-wavelet /trunk/abstractions/pd-wavelet
 pidip /trunk/externals/pidip 0 14581
@@ -167,7 +168,6 @@ sfruit /trunk/abstractions/sfruit
 share_mem /trunk/externals/share_mem
 sigpack /trunk/externals/sigpack
 simple_examples /trunk/scripts/guiplugins/simple_examples
-sixaxis /trunk/externals/io/sixaxis
 smlib /trunk/externals/smlib
 sndfiler /trunk/externals/tb/sndfiler
 snmp /trunk/externals/iem/snmp
@@ -189,15 +189,14 @@ tkwidgets /trunk/externals/tkwidgets
 tof /trunk/externals/tof
 trainingwheels-plugin /trunk/scripts/guiplugins/trainingwheels-plugin
 hardware /trunk/externals/hardware
+hardware /trunk/externals/io
 unauthorized /trunk/externals/unauthorized
 unicode /trunk/externals/iem/unicode
 urloader /trunk/externals/loaders/urloader
 vadsr~ /trunk/abstractions/vadsr~
 vbap /trunk/externals/vbap
 vst /trunk/externals/vst
-wiiremote /trunk/externals/io/wiiremote
 windowing /trunk/externals/windowing
-xbee /trunk/externals/io/xbee
 zexy /trunk/externals/zexy
 zhzxh~ /trunk/externals/zhzxh~
 trunk /trunk
