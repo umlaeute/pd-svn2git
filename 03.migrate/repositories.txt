@@ -1,7 +1,7 @@
 64bit-warning-plugin /trunk/scripts/guiplugins/64bit-warning-plugin
 aalex /trunk/externals/aalex
 aconnect /trunk/externals/iem/aconnect
-aenv~ /trunk/externals/aenv~ 0 6816
+bbogart /trunk/externals/*aenv~* 0 6816
 algocomp /trunk/externals/algocomp
 amixer /trunk/externals/iem/amixer
 ann /trunk/externals/ann
@@ -174,8 +174,8 @@ snmp /trunk/externals/iem/snmp
 soundfile /trunk/externals/soundfile
 srt /trunk/externals/srt
 supercollider /trunk/externals/supercollider
-susloop~ /trunk/externals/susloop~
-svf~ /trunk/externals/svf~
+bsaylor /trunk/externals/*susloop~*
+bsaylor /trunk/externals/*svf~*
 syslog /trunk/externals/iem/syslog
 tb /trunk/abstractions/tb
 tb /trunk/externals/tb
@@ -198,5 +198,5 @@ vbap /trunk/externals/vbap
 vst /trunk/externals/vst
 windowing /trunk/externals/windowing
 zexy /trunk/externals/zexy
-zhzxh~ /trunk/externals/zhzxh~
+bsaylor /trunk/externals/*zhzxh~*
 trunk /trunk
