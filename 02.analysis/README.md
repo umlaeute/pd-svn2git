@@ -40,7 +40,7 @@ since `svn log` does not provide this info, we need to do it ourselves.
 
 1. getting the log: `./getlog.sh`
 
-	$ ./getlog.sh file://$(readlink -f $(pwd)/../01.backup/svn) >/dev/null`
+	$ ./getlog.sh file://$(readlink -f $(pwd)/../01.backup/svn) > svnlog.xml
 
 2. fixing the svn (there is a mix of UTF-8 and ISO-8859 characters)
 
