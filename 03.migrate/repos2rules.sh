@@ -55,10 +55,14 @@ end match
 EOF
 }
 
+mycat() {
+    cat "${1}" | sed -e 's|^#.*||' | grep .
+}
+
 create_rules() {
-cat "${1}" | create_repositories
+mycat "${1}" | create_repositories
 echo
-cat "${1}" | create_matches
+mycat "${1}" | create_matches
 }
 
 create_rules "${REPOFILE}"
