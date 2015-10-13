@@ -1,0 +1,104 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import sys
+import subprocess
+
+def _nonempty_splits(s, splitter="\n"):
+    #print("splitting: %s" % (s))
+    return [x for x in s.split(splitter) if x]
+def _run(cmd):
+    #print("running: %s" % (cmd))
+    return _nonempty_splits(subprocess.Popen(cmd,stdout = subprocess.PIPE).communicate()[0])
+
+def current_branch():
+    ref=_run(["git", "symbolic-ref", "HEAD"])[0]
+    prefix="/refs/heads"
+    if ref.startswith(prefix):
+        return ref[len(prefix):]
+    return ref
+
+def get_all_roots():
+    return _run(["git", "rev-list", "--all", "--max-parents=0"])
+
+def get_root_branches(root):
+    return [x.strip("*").strip() for x in _run(["git", "branch", "--contains", root])]
+def get_root_tags(root):
+    return _run(["git", "tag", "--contains", root])
+
+
+def merge_sets(sets):
+    out = []
+    while len(sets)>0:
+        #first, *rest = sets
+        first = set(sets[0])
+        rest = sets[1:]
+
+        lf = -1
+        while len(first)>lf:
+            lf = len(first)
+
+            rest2 = []
+            for r in rest:
+                if len(first.intersection(set(r)))>0:
+                    first |= set(r)
+                else:
+                    rest2.append(r)     
+            rest = rest2
+
+        out.append(first)
+        sets = rest
+    return out
+
+def doit():
+    roots=get_all_roots()
+    master=current_branch()
+    #print("roots=%s" % (roots,))
+    #print("master=%s" % (master,))
+    branches=dict()
+    tags=dict()
+    for r in roots:
+        foundbranchs=get_root_branches(r)
+        for b in foundbranchs:
+            if not b in branches:
+                branches[b]=set()
+            branches[b].add(r)
+        foundtags=get_root_tags(r)
+        for b in foundtags:
+            if not b in tags:
+                tags[b]=set()
+            tags[b].add(r)
+    sets=[]
+    for b in branches:
+        sets+=[branches[b]]
+    for t in tags:
+        sets+=[tags[t]]
+    sets1=merge_sets(sets)
+    #print("roots: %s" % (roots))
+    #for b in branches:
+    #    print("branches['%s']: %s" % (b, branches[b]))
+    #for t in tags:
+    #    print("tags['%s']: %s" % (t, tags[b]))
+    #print("original set[%d]: %s" % (len(sets),sets))
+    #print("merged set  [%d]: %s" % (len(sets1),sets1))
+    if not sets1:
+        sys.exit(1)
+    if(len(sets1)>1):
+        for i,s in enumerate(sets1):
+            print("group[%s]" % (i,))
+            print(" roots   : %s" % (list(s)))
+            branches=set()
+            for r in s:
+                branches.update(get_root_branches(r))
+            if branches:
+                print(" branches: %s" % (list(branches)))
+            tags=set()
+            for r in s:
+                tags.update(get_root_tags(r))
+            if tags:
+                print(" tags    : %s" % (list(tags)))
+        import sys
+        sys.exit(len(sets1))
+        #print("merged set  [%d]: %s" % (len(sets1),sets1))
+
+doit()
