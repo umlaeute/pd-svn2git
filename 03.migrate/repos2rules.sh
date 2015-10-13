@@ -41,7 +41,7 @@ branch="master"
 if [ "x${path}" = "x/trunk" ]; then
  branch="master"
 else
- branch="$(echo ${path#/trunk/} | sed -e 's|~|_|g')"
+ branch="$(echo ${path#/trunk/} | sed -e 's|~|_|g' -e 's|^/||' -e 's|/$||' -e 's|//*|/|g')"
 fi
 echo "  branch ${branch}"
 echo "end match"
