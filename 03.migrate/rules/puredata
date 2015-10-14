@@ -14,6 +14,8 @@ create repository apple.git
 end repository
 create repository arraysize.git
 end repository
+create repository audionerd.git
+end repository
 create repository bassemu~.git
 end repository
 create repository bbogart.git
@@ -47,8 +49,6 @@ end repository
 create repository cxc.git
 end repository
 create repository dfx.git
-end repository
-create repository doc.git
 end repository
 create repository dropsuite-plugin.git
 end repository
@@ -92,11 +92,7 @@ create repository ggee.git
 end repository
 create repository grh.git
 end repository
-create repository gridflow.git
-end repository
 create repository gripd.git
-end repository
-create repository GYRE.git
 end repository
 create repository hardware.git
 end repository
@@ -147,8 +143,6 @@ end repository
 create repository import.git
 end repository
 create repository input_noticer.git
-end repository
-create repository jack_transport.git
 end repository
 create repository jackx.git
 end repository
@@ -216,8 +210,6 @@ create repository oscbank~.git
 end repository
 create repository oscx.git
 end repository
-create repository packages.git
-end repository
 create repository pan.git
 end repository
 create repository parazit.git
@@ -278,10 +270,6 @@ create repository rradical.git
 end repository
 create repository s-abstractions.git
 end repository
-create repository sc4pd.git
-end repository
-create repository scripts.git
-end repository
 create repository sdiflists.git
 end repository
 create repository search-plugin.git
@@ -295,8 +283,6 @@ end repository
 create repository simple_examples.git
 end repository
 create repository smlib.git
-end repository
-create repository sndfiler.git
 end repository
 create repository snmp.git
 end repository
@@ -347,40 +333,105 @@ end repository
 create repository zexy.git
 end repository
 
-match /trunk/scripts/guiplugins/64bit-warning-plugin/
-  repository 64bit-warning-plugin.git
-  branch scripts/guiplugins/64bit-warning-plugin
-end match
-match /trunk/externals/aalex/
-  repository aalex.git
-  branch externals/aalex
+match /trunk/externals/moocow/pdstring/
+  repository pdstring.git
+  branch externals/moocow/pdstring
 end match
 match /trunk/externals/iem/aconnect/
   repository aconnect.git
   branch externals/iem/aconnect
 end match
-match /trunk/externals/aenv~/
-  repository bsaylor.git
-  min revision 0
-  max revision 6816
-  prefix /aenv~/
-  branch externals/aenv_
-end match
-match /trunk/externals/algocomp/
-  repository algocomp.git
-  branch externals/algocomp
-end match
 match /trunk/externals/iem/amixer/
   repository amixer.git
   branch externals/iem/amixer
 end match
-match /trunk/externals/ann/
-  repository ann.git
-  branch externals/ann
+match /trunk/externals/iem/comport/
+  repository comport.git
+  branch externals/iem/comport
 end match
-match /trunk/externals/apple/
-  repository apple.git
-  branch externals/apple
+match /trunk/externals/iem/hdspm_mixer/
+  repository hdspm_mixer.git
+  branch externals/iem/hdspm_mixer
+end match
+match /trunk/externals/iem/iem_adaptfilt/
+  repository iem_adaptfilt.git
+  branch externals/iem/iem_adaptfilt
+end match
+match /trunk/externals/iem/iem_ambi/
+  repository iem_ambi.git
+  branch externals/iem/iem_ambi
+end match
+match /trunk/externals/iem/iem_bin_ambi/
+  repository iem_bin_ambi.git
+  branch externals/iem/iem_bin_ambi
+end match
+match /trunk/externals/iem/iem_delay/
+  repository iem_delay.git
+  branch externals/iem/iem_delay
+end match
+match /trunk/externals/iem/iem_dp/
+  repository iem_dp.git
+  branch externals/iem/iem_dp
+end match
+match /trunk/externals/iem/iemgui/
+  repository iemgui.git
+  branch externals/iem/iemgui
+end match
+match /trunk/externals/iem/iemguts/
+  repository iemguts.git
+  branch externals/iem/iemguts
+end match
+match /trunk/externals/iem/iem_matrix/
+  repository iem_matrix.git
+  branch externals/iem/iem_matrix
+end match
+match /trunk/externals/iem/iemmatrix/
+  repository iemmatrix.git
+  branch externals/iem/iemmatrix
+end match
+match /trunk/externals/iem/iemnet/
+  repository iemnet.git
+  branch externals/iem/iemnet
+end match
+match /trunk/externals/iem/iem_roomsim/
+  repository iem_roomsim.git
+  branch externals/iem/iem_roomsim
+end match
+match /trunk/externals/iem/iem_spec2/
+  repository iem_spec2.git
+  branch externals/iem/iem_spec2
+end match
+match /trunk/externals/iem/iemstream/
+  repository iemstream.git
+  branch externals/iem/iemstream
+end match
+match /trunk/externals/iem/iem_tab/
+  repository iem_tab.git
+  branch externals/iem/iem_tab
+end match
+match /trunk/externals/iem/iemxmlrpc/
+  repository iemxmlrpc.git
+  branch externals/iem/iemxmlrpc
+end match
+match /trunk/externals/iem/mediasettings/
+  repository mediasettings.git
+  branch externals/iem/mediasettings
+end match
+match /trunk/externals/iem/pdoctave/
+  repository pdoctave.git
+  branch externals/iem/pdoctave
+end match
+match /trunk/externals/iem/snmp/
+  repository snmp.git
+  branch externals/iem/snmp
+end match
+match /trunk/externals/iem/syslog/
+  repository syslog.git
+  branch externals/iem/syslog
+end match
+match /trunk/externals/iem/unicode/
+  repository unicode.git
+  branch externals/iem/unicode
 end match
 match /trunk/externals/arduino/
   repository pduino.git
@@ -402,9 +453,17 @@ match /branches/externals/hardware/wiimote-0.3/
   repository wiimote.git
   branch branches/externals/hardware/wiimote-0.3
 end match
-match /trunk/externals/arraysize/
-  repository arraysize.git
-  branch externals/arraysize
+match /trunk/externals/io/hidio/
+  repository hidio.git
+  branch externals/io/hidio
+end match
+match /trunk/externals/hcs/hid/
+  repository hid.git
+  branch externals/hcs/hid
+end match
+match /trunk/externals/hid/
+  repository hid.git
+  branch externals/hid
 end match
 match /trunk/externals/bassemu~/
   repository bassemu~.git
@@ -414,6 +473,40 @@ match /trunk/externals/bassemu/
   repository bassemu~.git
   branch externals/bassemu
 end match
+match /trunk/externals/aenv~/
+  repository bsaylor.git
+  min revision 0
+  max revision 6816
+  prefix /aenv~/
+  branch externals/aenv_
+end match
+match /trunk/externals/susloop~/
+  repository bsaylor.git
+  prefix /susloop~/
+  branch externals/susloop_
+end match
+match /trunk/externals/svf~/
+  repository bsaylor.git
+  prefix /svf~/
+  branch externals/svf_
+end match
+match /trunk/externals/zhzxh~/
+  repository bsaylor.git
+  prefix /zhzxh~/
+  branch externals/zhzxh_
+end match
+match /trunk/externals/bsaylor/
+  repository bsaylor.git
+  branch externals/bsaylor
+end match
+match /trunk/scripts/guiplugins/buttonbar-plugin/
+  repository buttonbar-plugin.git
+  branch scripts/guiplugins/buttonbar-plugin
+end match
+match /trunk/scripts/guiplugins/buttonbar/
+  repository buttonbar-plugin.git
+  branch scripts/guiplugins/buttonbar
+end match
 match /trunk/externals/chaos/
   repository chaos.git
   branch externals/chaos
@@ -421,6 +514,160 @@ end match
 match /trunk/externals/bbogart/chaos/
   repository chaos.git
   branch externals/bbogart/chaos
+end match
+match /trunk/externals/loaders/tclpd/
+  repository tclpd.git
+  branch externals/loaders/tclpd
+end match
+match /trunk/externals/tclpd/
+  repository tclpd.git
+  branch externals/tclpd
+end match
+match /trunk/abstractions/footils/
+  repository footils.git
+  branch abstractions/footils
+end match
+match /trunk/externals/footils/
+  repository footils.git
+  branch externals/footils
+end match
+match /trunk/guiplugins/kiosk-plugin/
+  repository kiosk-plugin.git
+  branch guiplugins/kiosk-plugin
+end match
+match /trunk/scripts/guiplugins/kiosk-plugin/
+  repository kiosk-plugin.git
+  branch scripts/guiplugins/kiosk-plugin
+end match
+match /trunk/abstractions/purepd/
+  repository purepd.git
+  branch abstractions/purepd
+end match
+match /trunk/externals/hcs/purepd/
+  repository purepd.git
+  branch externals/hcs/purepd
+end match
+match /trunk/abstractions/pureunity/
+  repository pureunity.git
+  branch abstractions/pureunity
+end match
+match /trunk/externals/pureunity/
+  repository pureunity.git
+  branch externals/pureunity
+end match
+match /trunk/externals/manypoly/
+  repository many.git
+  branch externals/manypoly
+end match
+match /trunk/externals/many/
+  repository many.git
+  branch externals/many
+end match
+match /trunk/abstractions/nusmuk/
+  repository nusmuk.git
+  branch abstractions/nusmuk
+end match
+match /trunk/externals/nusmuk/
+  repository nusmuk.git
+  branch externals/nusmuk
+end match
+match /trunk/scripts/guiplugins/object_db-plugin/
+  repository object_db-plugin.git
+  branch scripts/guiplugins/object_db-plugin
+end match
+match /trunk/scripts/guiplugins/object_db/
+  repository object_db-plugin.git
+  branch scripts/guiplugins/object_db
+end match
+match /trunk/externals/oscx/
+  repository oscx.git
+  branch externals/oscx
+end match
+match /trunk/externals/OSCx/
+  repository oscx.git
+  branch externals/OSCx
+end match
+match /trunk/externals/hcs/pan/
+  repository pan.git
+  branch externals/hcs/pan
+end match
+match /trunk/externals/pan/
+  repository pan.git
+  branch externals/pan
+end match
+match /trunk/abstractions/pddp/
+  repository pddp.git
+  branch abstractions/pddp
+end match
+match /trunk/externals/pddp/
+  repository pddp.git
+  branch externals/pddp
+end match
+match /trunk/externals/loaders/pdlua/
+  repository pdlua.git
+  branch externals/loaders/pdlua
+end match
+match /trunk/externals/pdlua/
+  repository pdlua.git
+  branch externals/pdlua
+end match
+match /trunk/abstractions/senderfruit/
+  repository sfruit.git
+  branch abstractions/senderfruit
+end match
+match /trunk/abstractions/sfruit/
+  repository sfruit.git
+  branch abstractions/sfruit
+end match
+match /trunk/abstractions/tb/
+  repository tb.git
+  branch abstractions/tb
+end match
+match /trunk/externals/tb/
+  repository tb.git
+  branch externals/tb
+end match
+match /trunk/externals/ff/
+  repository hardware.git
+  prefix /ff/
+  branch externals/ff
+end match
+match /trunk/externals/hardware/
+  repository hardware.git
+  branch externals/hardware
+end match
+match /trunk/externals/io/
+  repository hardware.git
+  branch externals/io
+end match
+match /trunk/externals/iem/dmx512/
+  repository hardware.git
+  prefix /dmx512/
+  branch externals/iem/dmx512
+end match
+match /trunk/scripts/guiplugins/64bit-warning-plugin/
+  repository 64bit-warning-plugin.git
+  branch scripts/guiplugins/64bit-warning-plugin
+end match
+match /trunk/externals/aalex/
+  repository aalex.git
+  branch externals/aalex
+end match
+match /trunk/externals/algocomp/
+  repository algocomp.git
+  branch externals/algocomp
+end match
+match /trunk/externals/ann/
+  repository ann.git
+  branch externals/ann
+end match
+match /trunk/externals/apple/
+  repository apple.git
+  branch externals/apple
+end match
+match /trunk/externals/arraysize/
+  repository arraysize.git
+  branch externals/arraysize
 end match
 match /trunk/externals/bbogart/
   repository bbogart.git
@@ -438,18 +685,6 @@ match /trunk/externals/boids/
   repository boids.git
   branch externals/boids
 end match
-match /trunk/externals/bsaylor/
-  repository bsaylor.git
-  branch externals/bsaylor
-end match
-match /trunk/scripts/guiplugins/buttonbar-plugin/
-  repository buttonbar-plugin.git
-  branch scripts/guiplugins/buttonbar-plugin
-end match
-match /trunk/scripts/guiplugins/buttonbar/
-  repository buttonbar-plugin.git
-  branch scripts/guiplugins/buttonbar
-end match
 match /trunk/scripts/guiplugins/buttonpopup-plugin/
   repository buttonpopup-plugin.git
   branch scripts/guiplugins/buttonpopup-plugin
@@ -461,10 +696,6 @@ end match
 match /trunk/externals/clr/
   repository clr.git
   branch externals/clr
-end match
-match /trunk/externals/iem/comport/
-  repository comport.git
-  branch externals/iem/comport
 end match
 match /trunk/externals/corelibs/
   repository corelibs.git
@@ -487,15 +718,6 @@ end match
 match /trunk/externals/dfx/
   repository dfx.git
   branch externals/dfx
-end match
-match /trunk/externals/iem/dmx512/
-  repository hardware.git
-  prefix /dmx512/
-  branch externals/iem/dmx512
-end match
-match /trunk/doc/
-  repository doc.git
-  branch doc
 end match
 match /trunk/scripts/guiplugins/dropsuite-plugin/
   repository dropsuite-plugin.git
@@ -539,11 +761,6 @@ match /trunk/externals/fftease/
   max revision 16791
   branch externals/fftease
 end match
-match /trunk/externals/ff/
-  repository hardware.git
-  prefix /ff/
-  branch externals/ff
-end match
 match /trunk/externals/fftw/
   repository fftw.git
   branch externals/fftw
@@ -555,14 +772,6 @@ end match
 match /trunk/externals/flatgui/
   repository flatgui.git
   branch externals/flatgui
-end match
-match /trunk/abstractions/footils/
-  repository footils.git
-  branch abstractions/footils
-end match
-match /trunk/externals/footils/
-  repository footils.git
-  branch externals/footils
 end match
 match /trunk/Framestein/
   repository Framestein.git
@@ -594,111 +803,29 @@ match /trunk/externals/grh/
   repository grh.git
   branch externals/grh
 end match
-match /trunk/externals/gridflow/
-  repository gridflow.git
-  min revision 0
-  max revision 16365
-  branch externals/gridflow
-end match
 match /trunk/extensions/gripd/
   repository gripd.git
   branch extensions/gripd
 end match
-match /trunk/abstractions/audionerd/GYRE/
-  repository GYRE.git
-  branch abstractions/audionerd/GYRE
+match /trunk/abstractions/audionerd/
+  repository audionerd.git
+  branch abstractions/audionerd
 end match
 match /trunk/externals/hcs/
   repository hcs.git
   branch externals/hcs
 end match
-match /trunk/externals/iem/hdspm_mixer/
-  repository hdspm_mixer.git
-  branch externals/iem/hdspm_mixer
-end match
 match /trunk/externals/loaders/hexloader/
   repository hexloader.git
   branch externals/loaders/hexloader
-end match
-match /trunk/externals/io/hidio/
-  repository hidio.git
-  branch externals/io/hidio
-end match
-match /trunk/externals/hcs/hid/
-  repository hid.git
-  branch externals/hcs/hid
-end match
-match /trunk/externals/hid/
-  repository hid.git
-  branch externals/hid
 end match
 match /trunk/externals/iem16/
   repository iem16.git
   branch externals/iem16
 end match
-match /trunk/externals/iem/iem_adaptfilt/
-  repository iem_adaptfilt.git
-  branch externals/iem/iem_adaptfilt
-end match
-match /trunk/externals/iem/iem_ambi/
-  repository iem_ambi.git
-  branch externals/iem/iem_ambi
-end match
-match /trunk/externals/iem/iem_bin_ambi/
-  repository iem_bin_ambi.git
-  branch externals/iem/iem_bin_ambi
-end match
-match /trunk/externals/iem/iem_delay/
-  repository iem_delay.git
-  branch externals/iem/iem_delay
-end match
-match /trunk/externals/iem/iem_dp/
-  repository iem_dp.git
-  branch externals/iem/iem_dp
-end match
-match /trunk/externals/iem/iemgui/
-  repository iemgui.git
-  branch externals/iem/iemgui
-end match
-match /trunk/externals/iem/iemguts/
-  repository iemguts.git
-  branch externals/iem/iemguts
-end match
 match /trunk/externals/iemlib/
   repository iemlib.git
   branch externals/iemlib
-end match
-match /trunk/externals/iem/iem_matrix/
-  repository iem_matrix.git
-  branch externals/iem/iem_matrix
-end match
-match /trunk/externals/iem/iemmatrix/
-  repository iemmatrix.git
-  branch externals/iem/iemmatrix
-end match
-match /trunk/externals/iem/iemnet/
-  repository iemnet.git
-  branch externals/iem/iemnet
-end match
-match /trunk/externals/iem/iem_roomsim/
-  repository iem_roomsim.git
-  branch externals/iem/iem_roomsim
-end match
-match /trunk/externals/iem/iem_spec2/
-  repository iem_spec2.git
-  branch externals/iem/iem_spec2
-end match
-match /trunk/externals/iem/iemstream/
-  repository iemstream.git
-  branch externals/iem/iemstream
-end match
-match /trunk/externals/iem/iem_tab/
-  repository iem_tab.git
-  branch externals/iem/iem_tab
-end match
-match /trunk/externals/iem/iemxmlrpc/
-  repository iemxmlrpc.git
-  branch externals/iem/iemxmlrpc
 end match
 match /trunk/externals/import/
   repository import.git
@@ -707,10 +834,6 @@ end match
 match /trunk/externals/input_noticer/
   repository input_noticer.git
   branch externals/input_noticer
-end match
-match /trunk/externals/tb/jack_transport/
-  repository jack_transport.git
-  branch externals/tb/jack_transport
 end match
 match /trunk/externals/jackx/
   repository jackx.git
@@ -736,14 +859,6 @@ match /trunk/externals/k_guile/
   repository k_guile.git
   branch externals/k_guile
 end match
-match /trunk/guiplugins/kiosk-plugin/
-  repository kiosk-plugin.git
-  branch guiplugins/kiosk-plugin
-end match
-match /trunk/scripts/guiplugins/kiosk-plugin/
-  repository kiosk-plugin.git
-  branch scripts/guiplugins/kiosk-plugin
-end match
 match /trunk/externals/k_jack~/
   repository k_jack~.git
   branch externals/k_jack_
@@ -764,14 +879,6 @@ match /trunk/externals/log/
   repository log.git
   branch externals/log
 end match
-match /trunk/externals/manypoly/
-  repository many.git
-  branch externals/manypoly
-end match
-match /trunk/externals/many/
-  repository many.git
-  branch externals/many
-end match
 match /trunk/externals/mapping/
   repository mapping.git
   branch externals/mapping
@@ -783,10 +890,6 @@ end match
 match /trunk/externals/maxlib/
   repository maxlib.git
   branch externals/maxlib
-end match
-match /trunk/externals/iem/mediasettings/
-  repository mediasettings.git
-  branch externals/iem/mediasettings
 end match
 match /trunk/abstractions/meta-abs/
   repository meta-abs.git
@@ -803,10 +906,6 @@ end match
 match /trunk/externals/mmonoplayer/
   repository mmonoplayer.git
   branch externals/mmonoplayer
-end match
-match /trunk/externals/moocow/pdstring/
-  repository pdstring.git
-  branch externals/moocow/pdstring
 end match
 match /trunk/externals/moocow/
   repository moocow.git
@@ -836,22 +935,6 @@ match /trunk/abstractions/nqpoly/
   repository nqpoly.git
   branch abstractions/nqpoly
 end match
-match /trunk/abstractions/nusmuk/
-  repository nusmuk.git
-  branch abstractions/nusmuk
-end match
-match /trunk/externals/nusmuk/
-  repository nusmuk.git
-  branch externals/nusmuk
-end match
-match /trunk/scripts/guiplugins/object_db-plugin/
-  repository object_db-plugin.git
-  branch scripts/guiplugins/object_db-plugin
-end match
-match /trunk/scripts/guiplugins/object_db/
-  repository object_db-plugin.git
-  branch scripts/guiplugins/object_db
-end match
 match /trunk/externals/olafmatt/
   repository olafmatt.git
   branch externals/olafmatt
@@ -860,37 +943,9 @@ match /trunk/externals/oscbank~/
   repository oscbank~.git
   branch externals/oscbank_
 end match
-match /trunk/externals/oscx/
-  repository oscx.git
-  branch externals/oscx
-end match
-match /trunk/externals/OSCx/
-  repository oscx.git
-  branch externals/OSCx
-end match
-match /trunk/packages/
-  repository packages.git
-  branch packages
-end match
-match /trunk/externals/hcs/pan/
-  repository pan.git
-  branch externals/hcs/pan
-end match
-match /trunk/externals/pan/
-  repository pan.git
-  branch externals/pan
-end match
 match /trunk/abstractions/parazit/
   repository parazit.git
   branch abstractions/parazit
-end match
-match /trunk/abstractions/pddp/
-  repository pddp.git
-  branch abstractions/pddp
-end match
-match /trunk/externals/pddp/
-  repository pddp.git
-  branch externals/pddp
 end match
 match /trunk/externals/loaders/pdj/
   repository pdj.git
@@ -898,21 +953,9 @@ match /trunk/externals/loaders/pdj/
   max revision 13599
   branch externals/loaders/pdj
 end match
-match /trunk/externals/loaders/pdlua/
-  repository pdlua.git
-  branch externals/loaders/pdlua
-end match
-match /trunk/externals/pdlua/
-  repository pdlua.git
-  branch externals/pdlua
-end match
 match /trunk/abstractions/pdmtl/
   repository pdmtl.git
   branch abstractions/pdmtl
-end match
-match /trunk/externals/iem/pdoctave/
-  repository pdoctave.git
-  branch externals/iem/pdoctave
 end match
 match /trunk/externals/pdogg/
   repository pdogg.git
@@ -972,22 +1015,6 @@ match /trunk/abstractions/puremeasurement/
   repository puremeasurement.git
   branch abstractions/puremeasurement
 end match
-match /trunk/abstractions/purepd/
-  repository purepd.git
-  branch abstractions/purepd
-end match
-match /trunk/externals/hcs/purepd/
-  repository purepd.git
-  branch externals/hcs/purepd
-end match
-match /trunk/abstractions/pureunity/
-  repository pureunity.git
-  branch abstractions/pureunity
-end match
-match /trunk/externals/pureunity/
-  repository pureunity.git
-  branch externals/pureunity
-end match
 match /trunk/scripts/guiplugins/quickbindings/
   repository quickbindings.git
   branch scripts/guiplugins/quickbindings
@@ -1008,14 +1035,6 @@ match /trunk/abstractions/s-abstractions/
   repository s-abstractions.git
   branch abstractions/s-abstractions
 end match
-match /trunk/externals/tb/sc4pd/
-  repository sc4pd.git
-  branch externals/tb/sc4pd
-end match
-match /trunk/scripts/
-  repository scripts.git
-  branch scripts
-end match
 match /trunk/externals/reakin/sdiflists/
   repository sdiflists.git
   branch externals/reakin/sdiflists
@@ -1023,14 +1042,6 @@ end match
 match /trunk/scripts/guiplugins/search-plugin/
   repository search-plugin.git
   branch scripts/guiplugins/search-plugin
-end match
-match /trunk/abstractions/senderfruit/
-  repository sfruit.git
-  branch abstractions/senderfruit
-end match
-match /trunk/abstractions/sfruit/
-  repository sfruit.git
-  branch abstractions/sfruit
 end match
 match /trunk/externals/share_mem/
   repository share_mem.git
@@ -1048,14 +1059,6 @@ match /trunk/externals/smlib/
   repository smlib.git
   branch externals/smlib
 end match
-match /trunk/externals/tb/sndfiler/
-  repository sndfiler.git
-  branch externals/tb/sndfiler
-end match
-match /trunk/externals/iem/snmp/
-  repository snmp.git
-  branch externals/iem/snmp
-end match
 match /trunk/externals/soundfile/
   repository soundfile.git
   branch externals/soundfile
@@ -1068,39 +1071,9 @@ match /trunk/externals/supercollider/
   repository supercollider.git
   branch externals/supercollider
 end match
-match /trunk/externals/susloop~/
-  repository bsaylor.git
-  prefix /susloop~/
-  branch externals/susloop_
-end match
-match /trunk/externals/svf~/
-  repository bsaylor.git
-  prefix /svf~/
-  branch externals/svf_
-end match
-match /trunk/externals/iem/syslog/
-  repository syslog.git
-  branch externals/iem/syslog
-end match
-match /trunk/abstractions/tb/
-  repository tb.git
-  branch abstractions/tb
-end match
-match /trunk/externals/tb/
-  repository tb.git
-  branch externals/tb
-end match
 match /trunk/externals/tclfile/
   repository tclfile.git
   branch externals/tclfile
-end match
-match /trunk/externals/loaders/tclpd/
-  repository tclpd.git
-  branch externals/loaders/tclpd
-end match
-match /trunk/externals/tclpd/
-  repository tclpd.git
-  branch externals/tclpd
 end match
 match /trunk/externals/template/
   repository template.git
@@ -1124,23 +1097,13 @@ match /trunk/externals/tof/
 end match
 match /trunk/scripts/guiplugins/trainingwheels-plugin/
   repository trainingwheels-plugin.git
+  min revision 0
+  max revision 14759
   branch scripts/guiplugins/trainingwheels-plugin
-end match
-match /trunk/externals/hardware/
-  repository hardware.git
-  branch externals/hardware
-end match
-match /trunk/externals/io/
-  repository hardware.git
-  branch externals/io
 end match
 match /trunk/externals/unauthorized/
   repository unauthorized.git
   branch externals/unauthorized
-end match
-match /trunk/externals/iem/unicode/
-  repository unicode.git
-  branch externals/iem/unicode
 end match
 match /trunk/externals/loaders/urloader/
   repository urloader.git
@@ -1165,11 +1128,6 @@ end match
 match /trunk/externals/zexy/
   repository zexy.git
   branch externals/zexy
-end match
-match /trunk/externals/zhzxh~/
-  repository bsaylor.git
-  prefix /zhzxh~/
-  branch externals/zhzxh_
 end match
 match /trunk/
   repository trunk.git
