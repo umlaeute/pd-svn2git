@@ -66,6 +66,7 @@ object_db-plugin /trunk/scripts/guiplugins/object_db-plugin
 object_db-plugin /trunk/scripts/guiplugins/object_db
 oscx /trunk/externals/oscx
 oscx /trunk/externals/OSCx
+oscx /branches/pd-extended/0.43/externals/oscx
 pan /trunk/externals/hcs/pan
 pan /trunk/externals/pan
 pddp /trunk/abstractions/pddp
